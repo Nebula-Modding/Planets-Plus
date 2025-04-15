@@ -1,5 +1,6 @@
 package io.github.nebulamodding.planetsplus.registry;
 
+import com.mojang.serialization.MapCodec;
 import io.github.nebulamodding.planetsplus.PlanetsPlus;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -14,13 +15,26 @@ import java.util.function.Supplier;
 public class PlanetsPlusBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(PlanetsPlus.MOD_ID);
 
+    public static final DeferredBlock<Block>
+
     /*
     Jada Blocks
      */
+            JADA_SAND = register("jada_sand", () -> new FallingBlock(sandProperties().mapColor(MapColor.COLOR_PURPLE)) {
+        @Override
+        protected MapCodec<? extends FallingBlock> codec() {
+            return null;
+        }
+    }),
+
+            JADA_STONE = register("jada_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PURPLE))),
+            JADA_COBBLESTONE = register("jada_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PURPLE))),
 
     /*
     Diater Blocks
      */
+            DIATER_STONE = register("diater_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_BLUE))),
+            DIATER_COBBLESTONE = register("diater_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_BLUE))),
 
     /*
     Io Blocks
@@ -33,7 +47,17 @@ public class PlanetsPlusBlocks {
     /*
     Ganymede Blocks
      */
+            GANYMEDE_SAND = register("ganymede_sand", () -> new FallingBlock(sandProperties().mapColor(MapColor.COLOR_YELLOW)) {
+                @Override
+                protected MapCodec<? extends FallingBlock> codec() {
+                    return null;
+                }
+            }),
 
+            GANYMEDE_STONE = register("ganymede_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_YELLOW))),
+            GANYMEDE_COBBLESTONE = register("ganymede_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_YELLOW))),
+            GANYMEDE_HIGHLANDS_STONE = register("ganymede_highlands_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_BROWN))),
+            GANYMEDE_HIGHLANDS_COBBLESTONE = register("ganymede_highlands_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_BROWN))),
      /*
     Callisto Blocks
      */
@@ -69,7 +93,9 @@ public class PlanetsPlusBlocks {
     /*
     Vulcan Blocks
      */
-
+            VULCAN_STONE = register("vulcan_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_RED))),
+            VULCAN_COBBLESTONE = register("vulcan_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_RED))),
+            VULCAN_INFERNAL_BASALT = register("vulcan_infernal_basalt", () -> new MagmaBlock(stoneProperties().sound(SoundType.BASALT).mapColor(MapColor.COLOR_RED))),
     /*
     Fierer Blocks
      */
@@ -85,6 +111,15 @@ public class PlanetsPlusBlocks {
     /*
     Galia Blocks
      */
+        GALIA_SAND = register("galia_sand", () -> new FallingBlock(sandProperties().mapColor(MapColor.COLOR_MAGENTA)) {
+        @Override
+        protected MapCodec<? extends FallingBlock> codec() {
+            return null;
+        }
+    }),
+
+            GALIA_STONE = register("galia_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_MAGENTA))),
+            GALIA_COBBLESTONE = register("galia_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_MAGENTA))),
 
     /*
     Dytiona Blocks
@@ -105,10 +140,36 @@ public class PlanetsPlusBlocks {
     /*
     Flade Blocks
      */
+        FLADE_SAND = register("flade_sand", () -> new FallingBlock(sandProperties().mapColor(MapColor.COLOR_YELLOW)) {
+        @Override
+        protected MapCodec<? extends FallingBlock> codec() {
+            return null;
+        }
+    }),
+
+            FLADE_STONE = register("flade_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_YELLOW))),
+            FLADE_COBBLESTONE = register("flade_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_YELLOW))),
 
     /*
     Mixeus Blocks
      */
+        MIXEUS_POLISHED_SAND = register("mixeus_polished_sand", () -> new FallingBlock(sandProperties().mapColor(MapColor.COLOR_LIGHT_GRAY)) {
+        @Override
+        protected MapCodec<? extends FallingBlock> codec() {
+            return null;
+        }
+    }),
+
+        MIXEUS_DUSTY_SAND = register("mixeus_dusty_sand", () -> new FallingBlock(sandProperties().mapColor(MapColor.COLOR_YELLOW)) {
+        @Override
+        protected MapCodec<? extends FallingBlock> codec() {
+            return null;
+        }
+    }),
+
+            MIXEUS_STONE = register("mixeus_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_GRAY))),
+            MIXEUS_COBBLESTONE = register("mixeus_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_GRAY)));
+
 
     /*
     Dune Blocks
@@ -189,10 +250,8 @@ public class PlanetsPlusBlocks {
     /*
     Object Blocks
      */
-    
-    public static final DeferredBlock<Block>
-            VULCAN_COBBLESTONE = register("vulcan_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_RED))),
-            VULCAN_INFERNAL_BASALT = register("vulcan_infernal_basalt", () -> new MagmaBlock(stoneProperties().sound(SoundType.BASALT).mapColor(MapColor.COLOR_RED)));
+
+
 
     /*
     Common Properties
