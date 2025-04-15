@@ -19,6 +19,7 @@ public class PlanetsPlusBlocks {
      */
 
     public static final DeferredBlock<Block>
+            VULCAN_COBBLESTONE = register("vulcan_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_RED))),
             VULCAN_INFERNAL_BASALT = register("vulcan_infernal_basalt", () -> new MagmaBlock(stoneProperties().sound(SoundType.BASALT).mapColor(MapColor.COLOR_RED)));
 
     /*
