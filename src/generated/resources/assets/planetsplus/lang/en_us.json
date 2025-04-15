@@ -1,0 +1,19 @@
+{
+  "block.planetsplus.vulcan_infernal_basalt": "Vulcan Infernal Basalt",
+  "itemGroup.planetsplus": "Planets+",
+  "tag.block.c.cobblestones.vulcan_stone": "Vulcan Stone Cobblestones",
+  "tag.block.c.ore_bearing_ground.vulcan_stone": "Vulcan Stone Ore Bearing Ground",
+  "tag.block.c.ores.rosinrite": "Rosinrite Ores",
+  "tag.block.c.ores_in_ground.vulcan_stone": "Vulcan Stone Ores In Ground",
+  "tag.block.c.storage_blocks.raw_rosinrite": "Raw Rosinrite Storage Blocks",
+  "tag.block.c.storage_blocks.rosinrite": "Rosinrite Storage Blocks",
+  "tag.item.c.cobblestones.vulcan_stone": "Vulcan Stone Cobblestones",
+  "tag.item.c.ingots.rosinrite": "Rosinrite Ingots",
+  "tag.item.c.nuggets.rosinrite": "Rosinrite Nuggets",
+  "tag.item.c.ore_bearing_ground.vulcan_stone": "Vulcan Stone Ore Bearing Ground",
+  "tag.item.c.ores.rosinrite": "Rosinrite Ores",
+  "tag.item.c.ores_in_ground.vulcan_stone": "Vulcan Stone Ores In Ground",
+  "tag.item.c.raw_material.rosinrite": "Rosinrite Raw Materials",
+  "tag.item.c.storage_blocks.raw_rosinrite": "Raw Rosinrite Storage Blocks",
+  "tag.item.c.storage_blocks.rosinrite": "Rosinrite Storage Blocks"
+}
