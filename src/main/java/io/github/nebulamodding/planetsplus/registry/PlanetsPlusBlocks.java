@@ -15,9 +15,181 @@ public class PlanetsPlusBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(PlanetsPlus.MOD_ID);
 
     /*
+    Jada Blocks
+     */
+
+    /*
+    Diater Blocks
+     */
+
+    /*
+    Io Blocks
+     */
+
+    /*
+    Europa Blocks
+     */
+
+    /*
+    Ganymede Blocks
+     */
+
+     /*
+    Callisto Blocks
+     */
+
+    /*
+    Enceladus Blocks
+     */
+
+    /*
+    Titan Blocks
+     */
+
+     /*
+    Iapetus Blocks
+     */
+
+    /*
+    Pluto Blocks
+     */
+
+    /*
+    Charon Blocks
+     */
+
+
+    /*
+    END OF SOLAR SYSTEM
+
+    START OF KELPER CENTAURI SYSTEM
+     */
+
+
+    /*
     Vulcan Blocks
      */
 
+    /*
+    Fierer Blocks
+     */
+
+    /*
+    Ronxy moon1 Blocks
+     */
+
+    /*
+    Ronxy moon2 Blocks
+     */
+
+    /*
+    Galia Blocks
+     */
+
+    /*
+    Dytiona Blocks
+     */
+
+
+    /*
+    END OF KELPER CENTAURI SYSTEM
+
+    START OF KELPER 10345 SYSTEM
+     */
+
+
+    /*
+    Soulfer Blocks
+     */
+
+    /*
+    Flade Blocks
+     */
+
+    /*
+    Mixeus Blocks
+     */
+
+    /*
+    Dune Blocks
+     */
+
+    /*
+    Unity Blocks
+     */
+
+     /*
+    Dread Blocks
+     */
+
+    /*
+    Glacies Blocks
+     */
+
+    /*
+    Voltic Blocks
+     */
+
+    /*
+    Vonic Blocks
+     */
+
+    /*
+    Reveda Blocks
+     */
+
+    /*
+    Obrina Blocks
+     */
+
+    /*
+    Baydin Blocks
+     */
+
+     /*
+    Evedva Blocks
+     */
+
+    /*
+    Eclipsa Blocks
+     */
+
+    /*
+    Atmas Blocks
+     */
+
+    /*
+    Ringetic Blocks
+     */
+
+
+    /*
+    END OF KELPER 10345 SYSTEM
+
+    START OF KELPER 38516 SYSTEM
+     */
+
+
+    /*
+    Sorea Blocks
+     */
+
+    /*
+    Molvon Blocks
+     */
+
+    /*
+    Object Blocks
+     */
+
+    /*
+    Object Blocks
+     */
+
+    /*
+    Object Blocks
+     */
+    
     public static final DeferredBlock<Block>
             VULCAN_COBBLESTONE = register("vulcan_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_RED))),
             VULCAN_INFERNAL_BASALT = register("vulcan_infernal_basalt", () -> new MagmaBlock(stoneProperties().sound(SoundType.BASALT).mapColor(MapColor.COLOR_RED)));
@@ -123,7 +295,7 @@ public class PlanetsPlusBlocks {
     private static BlockBehaviour.Properties rosinriteProperties() {
         return BlockBehaviour.Properties.of()
                 .mapColor(MapColor.COLOR_ORANGE)
-                .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                .instrument(NoteBlockInstrument.BIT)
                 .requiresCorrectToolForDrops()
                 .strength(5, 16)
                 .sound(SoundType.NETHERITE_BLOCK);
