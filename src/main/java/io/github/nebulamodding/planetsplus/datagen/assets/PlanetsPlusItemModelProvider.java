@@ -27,16 +27,16 @@ public class PlanetsPlusItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         final List<DeferredHolder<Item, ? extends Item>> excludedItems = new ArrayList<>();
         // Items excluded from having a model automatically provided
-        //excludedItems.add(PlanetsPlusItems.ExampleItem);
+        excludedItems.add(PlanetsPlusItems.DESH_HANDLE);
 
         /*
         Manual Item Models
          */
 
-        // Manual item models go here
+        itemModel(PlanetsPlusItems.DESH_HANDLE, HANDHELD);
 
         /*
-        Manual Block Models
+        Manual Block Item Models
          */
 
         // Manual block models go here

@@ -8,6 +8,9 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class PlanetsPlusItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PlanetsPlus.MOD_ID);
 
+    public static final DeferredItem<Item>
+            DESH_HANDLE = ITEMS.register("desh_handle", () -> new Item(new Item.Properties()));
+
     /*
     Helpers
      */
