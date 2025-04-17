@@ -2,6 +2,7 @@ package io.github.nebulamodding.planetsplus.registry;
 
 import com.mojang.serialization.MapCodec;
 import io.github.nebulamodding.planetsplus.PlanetsPlus;
+import net.minecraft.util.ColorRGBA;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -15,242 +16,148 @@ import java.util.function.Supplier;
 public class PlanetsPlusBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(PlanetsPlus.MOD_ID);
 
+    /*
+    Sol
+     */
+
+    // Jada Blocks
     public static final DeferredBlock<Block>
+            JADA_SAND = register("jada_sand", () -> new ColoredFallingBlock(new ColorRGBA(0x6b5868), sandProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
+            JADA_STONE = register("jada_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
+            JADA_COBBLESTONE = register("jada_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE)));
 
-    /*
-    Jada Blocks
-     */
-            JADA_SAND = register("jada_sand", () -> new FallingBlock(sandProperties().mapColor(MapColor.COLOR_PURPLE)) {
-        @Override
-        protected MapCodec<? extends FallingBlock> codec() {
-            return null;
-        }
-    }),
-
-            JADA_STONE = register("jada_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PURPLE))),
-            JADA_COBBLESTONE = register("jada_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PURPLE))),
-
-    /*
-    Diater Blocks
-     */
+    // Diater Blocks
+    public static final DeferredBlock<Block>
             DIATER_STONE = register("diater_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_BLUE))),
-            DIATER_COBBLESTONE = register("diater_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_BLUE))),
+            DIATER_COBBLESTONE = register("diater_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_BLUE)));
 
-    /*
-    Io Blocks
-     */
+    // Io Blocks
 
-    /*
-    Europa Blocks
-     */
 
-    /*
-    Ganymede Blocks
-     */
-            GANYMEDE_SAND = register("ganymede_sand", () -> new FallingBlock(sandProperties().mapColor(MapColor.COLOR_YELLOW)) {
-                @Override
-                protected MapCodec<? extends FallingBlock> codec() {
-                    return null;
-                }
-            }),
+    // Europa Blocks
 
-            GANYMEDE_STONE = register("ganymede_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_YELLOW))),
-            GANYMEDE_COBBLESTONE = register("ganymede_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_YELLOW))),
-            GANYMEDE_HIGHLANDS_STONE = register("ganymede_highlands_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_BROWN))),
-            GANYMEDE_HIGHLANDS_COBBLESTONE = register("ganymede_highlands_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_BROWN))),
-     /*
-    Callisto Blocks
-     */
 
-    /*
-    Enceladus Blocks
-     */
+    // Ganymede Blocks
+    public static final DeferredBlock<Block>
+            GANYMEDE_SAND = register("ganymede_sand", () -> new ColoredFallingBlock(new ColorRGBA(0xb5a37c), sandProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
+            GANYMEDE_STONE = register("ganymede_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
+            GANYMEDE_COBBLESTONE = register("ganymede_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
+            GANYMEDE_HIGHLANDS_STONE = register("ganymede_highlands_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_GRAY))),
+            GANYMEDE_HIGHLANDS_COBBLESTONE = register("ganymede_highlands_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_GRAY)));
 
-    /*
-    Titan Blocks
-     */
+    // Callisto Blocks
 
-     /*
-    Iapetus Blocks
-     */
 
-    /*
-    Pluto Blocks
-     */
+    // Enceladus Blocks
 
-    /*
-    Charon Blocks
-     */
+
+    // Titan Blocks
+
+
+    // Iapetus Blocks
+
+
+    // Pluto Blocks
+
+
+    // Charon Blocks
 
 
     /*
-    END OF SOLAR SYSTEM
-
-    START OF KELPER CENTAURI SYSTEM
+    Kepler Centauri
      */
 
-
-    /*
-    Vulcan Blocks
-     */
+    // Vulcan Blocks
+    public static final DeferredBlock<Block>
             VULCAN_STONE = register("vulcan_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_RED))),
             VULCAN_COBBLESTONE = register("vulcan_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_RED))),
-            VULCAN_INFERNAL_BASALT = register("vulcan_infernal_basalt", () -> new MagmaBlock(stoneProperties().sound(SoundType.BASALT).mapColor(MapColor.COLOR_RED))),
-    /*
-    Fierer Blocks
-     */
+            VULCAN_INFERNAL_BASALT = register("vulcan_infernal_basalt", () -> new MagmaBlock(stoneProperties().sound(SoundType.BASALT).mapColor(MapColor.COLOR_RED)));
 
-    /*
-    Ronxy moon1 Blocks
-     */
+    // Fierer Blocks
 
-    /*
-    Ronxy moon2 Blocks
-     */
 
-    /*
-    Galia Blocks
-     */
-        GALIA_SAND = register("galia_sand", () -> new FallingBlock(sandProperties().mapColor(MapColor.COLOR_MAGENTA)) {
-        @Override
-        protected MapCodec<? extends FallingBlock> codec() {
-            return null;
-        }
-    }),
+    // Ronxy Moon1 Blocks
 
-            GALIA_STONE = register("galia_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_MAGENTA))),
-            GALIA_COBBLESTONE = register("galia_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_MAGENTA))),
 
-    /*
-    Dytiona Blocks
-     */
+    // Ronxy Moon2 Blocks
+
+
+    // Galia Blocks
+    public static final DeferredBlock<Block>
+            GALIA_SAND = register("galia_sand", () -> new ColoredFallingBlock(new ColorRGBA(0xcc4380), sandProperties().mapColor(MapColor.COLOR_PINK))),
+            GALIA_STONE = register("galia_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PINK))),
+            GALIA_COBBLESTONE = register("galia_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PINK)));
+
+    // Dytiona Blocks
 
 
     /*
-    END OF KELPER CENTAURI SYSTEM
-
-    START OF KELPER 10345 SYSTEM
+    Kepler 10345
      */
 
+    //Soulfer Blocks
 
-    /*
-    Soulfer Blocks
-     */
 
-    /*
-    Flade Blocks
-     */
-        FLADE_SAND = register("flade_sand", () -> new FallingBlock(sandProperties().mapColor(MapColor.COLOR_YELLOW)) {
-        @Override
-        protected MapCodec<? extends FallingBlock> codec() {
-            return null;
-        }
-    }),
-
+    // Flade Blocks
+    public static final DeferredBlock<Block>
+            FLADE_SAND = register("flade_sand", () -> new ColoredFallingBlock(new ColorRGBA(0xcdd15c), sandProperties().mapColor(MapColor.COLOR_YELLOW))),
             FLADE_STONE = register("flade_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_YELLOW))),
-            FLADE_COBBLESTONE = register("flade_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_YELLOW))),
+            FLADE_COBBLESTONE = register("flade_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_YELLOW)));
 
-    /*
-    Mixeus Blocks
-     */
-        MIXEUS_POLISHED_SAND = register("mixeus_polished_sand", () -> new FallingBlock(sandProperties().mapColor(MapColor.COLOR_LIGHT_GRAY)) {
-        @Override
-        protected MapCodec<? extends FallingBlock> codec() {
-            return null;
-        }
-    }),
+    // Mixeus Blocks
+    public static final DeferredBlock<Block>
+            MIXEUS_POLISHED_SAND = register("mixeus_polished_sand", () -> new ColoredFallingBlock(new ColorRGBA(0xd7d2c9), sandProperties().mapColor(MapColor.TERRACOTTA_WHITE))),
+            MIXEUS_DUSTY_SAND = register("mixeus_dusty_sand", () -> new ColoredFallingBlock(new ColorRGBA(0xcc9d64), sandProperties().mapColor(MapColor.COLOR_ORANGE))),
+            MIXEUS_STONE = register("mixeus_stone", () -> new Block(stoneProperties().mapColor(MapColor.SNOW))),
+            MIXEUS_COBBLESTONE = register("mixeus_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.SNOW)));
 
-        MIXEUS_DUSTY_SAND = register("mixeus_dusty_sand", () -> new FallingBlock(sandProperties().mapColor(MapColor.COLOR_YELLOW)) {
-        @Override
-        protected MapCodec<? extends FallingBlock> codec() {
-            return null;
-        }
-    }),
-
-            MIXEUS_STONE = register("mixeus_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_GRAY))),
-            MIXEUS_COBBLESTONE = register("mixeus_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_GRAY)));
+    // Dune Blocks
 
 
-    /*
-    Dune Blocks
-     */
+    // Unity Blocks
 
-    /*
-    Unity Blocks
-     */
 
-     /*
-    Dread Blocks
-     */
+    // Dread Blocks
 
-    /*
-    Glacies Blocks
-     */
 
-    /*
-    Voltic Blocks
-     */
+    // Glacies Blocks
 
-    /*
-    Vonic Blocks
-     */
 
-    /*
-    Reveda Blocks
-     */
+    // Voltic Blocks
 
-    /*
-    Obrina Blocks
-     */
 
-    /*
-    Baydin Blocks
-     */
+    // Vonic Blocks
 
-     /*
-    Evedva Blocks
-     */
 
-    /*
-    Eclipsa Blocks
-     */
+    // Reveda Blocks
 
-    /*
-    Atmas Blocks
-     */
 
-    /*
-    Ringetic Blocks
-     */
+    // Obrina Blocks
+
+
+    // Baydin Blocks
+
+
+    // Evedva Blocks
+
+
+    // Eclipsa Blocks
+
+
+    // Atmas Blocks
+
+
+    // Ringetic Blocks
 
 
     /*
-    END OF KELPER 10345 SYSTEM
-
-    START OF KELPER 38516 SYSTEM
+    Kepler 38516
      */
 
+    // Sorea Blocks
 
-    /*
-    Sorea Blocks
-     */
 
-    /*
-    Molvon Blocks
-     */
-
-    /*
-    Object Blocks
-     */
-
-    /*
-    Object Blocks
-     */
-
-    /*
-    Object Blocks
-     */
-
+    // Molvon Blocks
 
 
     /*
