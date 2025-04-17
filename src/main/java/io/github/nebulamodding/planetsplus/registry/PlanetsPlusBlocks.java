@@ -118,7 +118,10 @@ public class PlanetsPlusBlocks {
 
 
     // Dread Blocks
-
+    public static final DeferredBlock<Block>
+            DREAD_COBBLED_GRAVEL = register("dread_cobbled_gravel", () -> new ColoredFallingBlock(new ColorRGBA(0xcc9d64), sandProperties().mapColor(MapColor.COLOR_ORANGE))),
+            DREAD_STONE = register("dread_stone", () -> new Block(stoneProperties().mapColor(MapColor.SNOW))),
+            DREAD_COBBLESTONE = register("dread_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.SNOW)));
 
     // Glacies Blocks
 
