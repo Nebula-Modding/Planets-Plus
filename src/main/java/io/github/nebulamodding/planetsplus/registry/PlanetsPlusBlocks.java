@@ -85,10 +85,14 @@ public class PlanetsPlusBlocks {
     public static final DeferredBlock<Block>
             GALIA_SAND = register("galia_sand", () -> new ColoredFallingBlock(new ColorRGBA(0xcc4380), sandProperties().mapColor(MapColor.COLOR_PINK))),
             GALIA_STONE = register("galia_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PINK))),
-            GALIA_COBBLESTONE = register("galia_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PINK)));
+            GALIA_COBBLESTONE = register("galia_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PINK))),
+            VOXGLOMERATE = register("voxglomerate", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PURPLE)));
 
     // Dytiona Blocks
-
+    public static final DeferredBlock<Block>
+            DYTIONA_SAND = register("dytiona_sand", () -> new ColoredFallingBlock(new ColorRGBA(0xE0DACA), sandProperties().mapColor(MapColor.TERRACOTTA_WHITE))),
+            DYTIONA_STONE = register("dytiona_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_WHITE))),
+            DYTIONA_COBBLESTONE = register("dytiona_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_WHITE)));
 
     /*
     Kepler 10345
@@ -120,11 +124,14 @@ public class PlanetsPlusBlocks {
     public static final DeferredBlock<Block>
             DREAD_COBBLED_GRAVEL = register("dread_cobbled_gravel", () -> new ColoredFallingBlock(new ColorRGBA(0xb5a78f), sandProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
             DREAD_STONE = register("dread_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
-            DREAD_COBBLESTONE = register("dread_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)));
+            DREAD_COBBLESTONE = register("dread_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
+            DREAD_DRIPSTONE = register("dread_dripstone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)));
 
     // Glacies Blocks
-
-
+    public static final DeferredBlock<Block>
+        GLACIES_SAND = register("glacies_sand", () -> new ColoredFallingBlock(new ColorRGBA(0xC7AF50), sandProperties().mapColor(MapColor.TERRACOTTA_YELLOW))),
+        GLACIES_STONE= register("glacies_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_YELLOW))),
+        GLACIES_COBBLESTONE = register("glacies_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_YELLOW)));
     // Voltic Blocks
 
 
@@ -144,14 +151,23 @@ public class PlanetsPlusBlocks {
 
 
     // Eclipsa Blocks
-
+    public static final DeferredBlock<Block>
+    ECLIPSA_SAND = register("eclipsa_sand", () -> new ColoredFallingBlock(new ColorRGBA(0x7D5456), sandProperties().mapColor(MapColor.TERRACOTTA_RED))),
+    ECLIPSA_STONE= register("eclipsa_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_RED))),
+    ECLIPSA_COBBLESTONE = register("eclipsa_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_RED)));
 
     // Atmas Blocks
+    public static final DeferredBlock<Block>
+    ATMAS_STONE = register("atmas_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
+    ATMAS_COBBLESTONE = register("atmas_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE)));
 
 
     // Ringetic Blocks
-
-
+    public static final DeferredBlock<Block>
+    RINGETIC_SAND = register("ringetic_sand", () -> new ColoredFallingBlock(new ColorRGBA(0xD9B24C), sandProperties().mapColor(MapColor.TERRACOTTA_YELLOW))),
+    RINGETIC_STONE = register("ringetic_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_YELLOW))),
+    RINGETIC_COBBLESTONE = register("ringetic_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_YELLOW))),
+    RINGETIC_FROSTSTONE= register("ringetic_froststone", () -> new Block(stoneProperties().mapColor(MapColor.ICE)));
     /*
     Kepler 38516
      */
@@ -161,6 +177,12 @@ public class PlanetsPlusBlocks {
 
     // Molvon Blocks
 
+    /*
+    Common / Generic blocks
+     */
+    public static final DeferredBlock<Block>
+    BASALT_SAND = register("basalt_sand", () -> new ColoredFallingBlock(new ColorRGBA(0x605F5F), sandProperties().mapColor(MapColor.STONE))),
+    SULFUR = register("sulfur", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_YELLOW))); // Dylan could you give this the same sound as basalt?
 
     /*
     Common Properties
