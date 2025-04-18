@@ -119,9 +119,9 @@ public class PlanetsPlusBlocks {
 
     // Dread Blocks
     public static final DeferredBlock<Block>
-            DREAD_COBBLED_GRAVEL = register("dread_cobbled_gravel", () -> new ColoredFallingBlock(new ColorRGBA(0xcc9d64), sandProperties().mapColor(MapColor.COLOR_ORANGE))),
-            DREAD_STONE = register("dread_stone", () -> new Block(stoneProperties().mapColor(MapColor.SNOW))),
-            DREAD_COBBLESTONE = register("dread_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.SNOW)));
+            DREAD_COBBLED_GRAVEL = register("dread_cobbled_gravel", () -> new ColoredFallingBlock(new ColorRGBA(0xb5a78f), sandProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
+            DREAD_STONE = register("dread_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
+            DREAD_COBBLESTONE = register("dread_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)));
 
     // Glacies Blocks
 
@@ -223,6 +223,9 @@ public class PlanetsPlusBlocks {
     }
     private static BlockBehaviour.Properties sandProperties() {
         return BlockBehaviour.Properties.ofFullCopy(Blocks.SAND);
+    }
+    private static BlockBehaviour.Properties gravelProperties() {
+        return BlockBehaviour.Properties.ofFullCopy(Blocks.GRAVEL);
     }
     private static BlockBehaviour.Properties rawBlockProperties() {
         return BlockBehaviour.Properties.ofFullCopy(Blocks.RAW_IRON_BLOCK);

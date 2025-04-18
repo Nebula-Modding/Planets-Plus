@@ -1,6 +1,9 @@
-// 1.21.1	2025-04-14T22:07:35.1001941	Block States: planetsplus
+// 1.21.1	2025-04-17T20:36:42.8868451	Block States: planetsplus
 f1ea3d31446e425d681d0818a9e7be9b93d7581e assets/planetsplus/blockstates/diater_cobblestone.json
 ff50c0ac0ec0da2f9c4db39fc3ae5abbe6e2b543 assets/planetsplus/blockstates/diater_stone.json
+27d927d5e1a34811562593a7032fddd54b99157a assets/planetsplus/blockstates/dread_cobbled_gravel.json
+1231c7cc1682092cfe13b647be2898ed2a7114ca assets/planetsplus/blockstates/dread_cobblestone.json
+a17df9616d29289ea33cde8d0370badc3fee42cd assets/planetsplus/blockstates/dread_stone.json
 7e42fc17af63dc92d182964deb780dc1860654a1 assets/planetsplus/blockstates/flade_cobblestone.json
 6e6c7993d1bdde09f4bfd415d2736bf1e8a9562a assets/planetsplus/blockstates/flade_sand.json
 f4db824be125c24ce2ab13059fc9adface6f01db assets/planetsplus/blockstates/flade_stone.json
@@ -24,6 +27,9 @@ e3c0d3a877a39f1af8006e06cd3e289cf4fe4fde assets/planetsplus/blockstates/vulcan_i
 da0a5b59050aae5ac58ed905b24a1d27c6000a7a assets/planetsplus/blockstates/vulcan_stone.json
 37e259d7d056313ea59433f815a457d89c044c5d assets/planetsplus/models/block/diater_cobblestone.json
 9a0d1bd58ccb0ae039437b812737a24a6e344ae0 assets/planetsplus/models/block/diater_stone.json
+35d6dc21c6ebe84c9b25aacc05cd6dcc1168cbbc assets/planetsplus/models/block/dread_cobbled_gravel.json
+1cda833789f66348f1e133733af37b8ce59088a5 assets/planetsplus/models/block/dread_cobblestone.json
+d9d442f3d4e47d0d487602c6e350e374924055f2 assets/planetsplus/models/block/dread_stone.json
 ac027cf56e847244b40e86d4e38e790c98744f78 assets/planetsplus/models/block/flade_cobblestone.json
 1552dc6fa66cc282870d6d176fadcd268b554cfe assets/planetsplus/models/block/flade_sand.json
 f28b8740b570cfed788978e9636239246e9ae492 assets/planetsplus/models/block/flade_stone.json
@@ -47,6 +53,9 @@ a68620b8527ce007c177cd6f5fce32d0b6004d46 assets/planetsplus/models/block/mixeus_
 bc414d5730ae885999ec0003293bc4c058bcda3f assets/planetsplus/models/block/vulcan_stone.json
 54d42d1b364b307ae6e73262fa26eeed0a446188 assets/planetsplus/models/item/diater_cobblestone.json
 117775c747d40cd83e1eba4e304c105f2d0bc4f1 assets/planetsplus/models/item/diater_stone.json
+59729ea61e664f154e28b77b15e63552f5240703 assets/planetsplus/models/item/dread_cobbled_gravel.json
+e94f25b96e8d4df9d1f88e786bdf013ee711f9ca assets/planetsplus/models/item/dread_cobblestone.json
+0477c82a01405a5749585aedd4b4c6f39f7e7c09 assets/planetsplus/models/item/dread_stone.json
 cda8cde54563b77ca788587e147b4972f1eb09c4 assets/planetsplus/models/item/flade_cobblestone.json
 f42d3d1fa78a420f5dda5cc39d35f3621a87877c assets/planetsplus/models/item/flade_sand.json
 f5ba17dabd5363fd6beb844e2a08636d501b36fa assets/planetsplus/models/item/flade_stone.json

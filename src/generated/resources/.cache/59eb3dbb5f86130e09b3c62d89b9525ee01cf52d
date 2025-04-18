@@ -1,6 +1,9 @@
-// 1.21.1	2025-04-14T22:07:35.103194	Loot Tables
+// 1.21.1	2025-04-17T20:36:42.8893593	Loot Tables
 6e08f5c54a2bde269bd85d9f9ffbb1630f187f8e data/planetsplus/loot_table/blocks/diater_cobblestone.json
 d016ae532790b1ff0a884f45b563a297478a965a data/planetsplus/loot_table/blocks/diater_stone.json
+0e9032364357312b0b86ac432584d96b4233b11d data/planetsplus/loot_table/blocks/dread_cobbled_gravel.json
+e35b07355fa93c296e7769232bc0c90e4e1f861a data/planetsplus/loot_table/blocks/dread_cobblestone.json
+6b83bb2946c894601629f7eedda511e9bc89c288 data/planetsplus/loot_table/blocks/dread_stone.json
 7a86882bdedc7ca56ea6aa2c3375a393d295e025 data/planetsplus/loot_table/blocks/flade_cobblestone.json
 039863e76f31b20e95cdc97616f1a00a4c82a720 data/planetsplus/loot_table/blocks/flade_sand.json
 c33ba96de679fe5c38ae3030b2bb9c1e4c21ea35 data/planetsplus/loot_table/blocks/flade_stone.json
