@@ -1,6 +1,5 @@
 package io.github.nebulamodding.planetsplus.registry;
 
-import com.mojang.serialization.MapCodec;
 import io.github.nebulamodding.planetsplus.PlanetsPlus;
 import net.minecraft.util.ColorRGBA;
 import net.minecraft.world.level.block.*;
