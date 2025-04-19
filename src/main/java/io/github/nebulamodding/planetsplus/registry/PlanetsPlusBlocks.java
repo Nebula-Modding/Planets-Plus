@@ -181,8 +181,8 @@ public class PlanetsPlusBlocks {
     Common / Generic blocks
      */
     public static final DeferredBlock<Block>
-    BASALT_SAND = register("basalt_sand", () -> new ColoredFallingBlock(new ColorRGBA(0x605F5F), sandProperties().mapColor(MapColor.STONE))),
-    SULFUR = register("sulfur", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_YELLOW))); // Dylan could you give this the same sound as basalt?
+    BASALT_SAND = register("basalt_sand", () -> new ColoredFallingBlock(new ColorRGBA(0x605F5F),sandProperties().mapColor(MapColor.STONE))),
+    SULFUR = register("sulfur", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_YELLOW).sound(SoundType.BASALT))); 
 
     /*
     Common Properties
