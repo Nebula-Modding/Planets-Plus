@@ -1,4 +1,4 @@
-// 1.21.1	2025-04-17T20:19:24.5264442	Loot Tables
+// 1.21.1	2025-04-19T01:44:27.5443855	Loot Tables
 e1c3443bc6560a78a504f2e5c9aaa3348d372e36 data/planetsplus/loot_table/blocks/atmas_cobblestone.json
 6be6dda4fdc8fb15736f3f0da805f897f57acf1b data/planetsplus/loot_table/blocks/atmas_stone.json
 5d41c5d2c3c728fdd74a9bd0b0dae9bc71c87a39 data/planetsplus/loot_table/blocks/basalt_sand.json
@@ -8,12 +8,17 @@ d016ae532790b1ff0a884f45b563a297478a965a data/planetsplus/loot_table/blocks/diat
 e35b07355fa93c296e7769232bc0c90e4e1f861a data/planetsplus/loot_table/blocks/dread_cobblestone.json
 9da97815e35f1ed3134792d94d6a830b5d7ba601 data/planetsplus/loot_table/blocks/dread_dripstone.json
 6b83bb2946c894601629f7eedda511e9bc89c288 data/planetsplus/loot_table/blocks/dread_stone.json
+380f79924182a468e5d948bf1dac95053c59e866 data/planetsplus/loot_table/blocks/dune_cobblestone.json
+d67a85a97daac900cd50c7df86cb7513f1c27e58 data/planetsplus/loot_table/blocks/dune_sand.json
+e9445859a09d1230b486fb2892be703748f58415 data/planetsplus/loot_table/blocks/dune_stone.json
 60c8ae8792d4bfd265bf4de3a2a369cf2b43d574 data/planetsplus/loot_table/blocks/dytiona_cobblestone.json
 e0be8f3ccbdd86e5f89b2c9e78ce942a2b53e3d1 data/planetsplus/loot_table/blocks/dytiona_sand.json
 74a8c67b3b3fe14cf6eabeda7a3fd66b8d74ff5a data/planetsplus/loot_table/blocks/dytiona_stone.json
 da8269ec873ac86475159145312607e345bbcb8d data/planetsplus/loot_table/blocks/eclipsa_cobblestone.json
 210409d13f9d8f74b6f7b17b38ddf8e1d8b7a1d0 data/planetsplus/loot_table/blocks/eclipsa_sand.json
 ee1110f56643289c33406b4a90fb2c245e2a14bd data/planetsplus/loot_table/blocks/eclipsa_stone.json
+23929e660e661438f9f52bbaca2217fa4879427f data/planetsplus/loot_table/blocks/fierer_cobblestone.json
+526f8f977698c04b1be1b9bd6256f9d756a5a9e3 data/planetsplus/loot_table/blocks/fierer_stone.json
 7a86882bdedc7ca56ea6aa2c3375a393d295e025 data/planetsplus/loot_table/blocks/flade_cobblestone.json
 039863e76f31b20e95cdc97616f1a00a4c82a720 data/planetsplus/loot_table/blocks/flade_sand.json
 c33ba96de679fe5c38ae3030b2bb9c1e4c21ea35 data/planetsplus/loot_table/blocks/flade_stone.json

@@ -73,8 +73,11 @@ public class PlanetsPlusBlocks {
             VULCAN_INFERNAL_BASALT = register("vulcan_infernal_basalt", () -> new MagmaBlock(stoneProperties().sound(SoundType.BASALT).mapColor(MapColor.COLOR_RED)));
 
     // Fierer Blocks
+    public static final DeferredBlock<Block>
+            FIERER_STONE = register("fierer_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_RED))),
+            FIERER_COBBLESTONE = register("fierer_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_RED)));
 
-
+    // Ronxy system
     // Ronxy Moon1 Blocks
 
 
@@ -100,7 +103,7 @@ public class PlanetsPlusBlocks {
 
     //Soulfer Blocks
 
-
+    //Graze system
     // Flade Blocks
     public static final DeferredBlock<Block>
             FLADE_SAND = register("flade_sand", () -> new ColoredFallingBlock(new ColorRGBA(0xcdd15c), sandProperties().mapColor(MapColor.COLOR_YELLOW))),
@@ -115,23 +118,28 @@ public class PlanetsPlusBlocks {
             MIXEUS_COBBLESTONE = register("mixeus_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.SNOW)));
 
     // Dune Blocks
-
+    public static final DeferredBlock<Block>
+            DUNE_SAND = register("dune_sand", () -> new ColoredFallingBlock(new ColorRGBA(0xd47a4a), sandProperties().mapColor(MapColor.TERRACOTTA_ORANGE))),
+            DUNE_STONE = register("dune_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_ORANGE))),
+            DUNE_COBBLESTONE = register("dune_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_ORANGE)));
 
     // Unity Blocks
 
 
     // Dread Blocks
     public static final DeferredBlock<Block>
-            DREAD_COBBLED_GRAVEL = register("dread_cobbled_gravel", () -> new ColoredFallingBlock(new ColorRGBA(0xb5a78f), sandProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
+            DREAD_COBBLED_GRAVEL = register("dread_cobbled_gravel", () -> new ColoredFallingBlock(new ColorRGBA(0xb5a78f), gravelProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
             DREAD_STONE = register("dread_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
             DREAD_COBBLESTONE = register("dread_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
             DREAD_DRIPSTONE = register("dread_dripstone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)));
 
     // Glacies Blocks
     public static final DeferredBlock<Block>
-        GLACIES_SAND = register("glacies_sand", () -> new ColoredFallingBlock(new ColorRGBA(0xC7AF50), sandProperties().mapColor(MapColor.TERRACOTTA_YELLOW))),
-        GLACIES_STONE= register("glacies_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_YELLOW))),
-        GLACIES_COBBLESTONE = register("glacies_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_YELLOW)));
+            GLACIES_SAND = register("glacies_sand", () -> new ColoredFallingBlock(new ColorRGBA(0xC7AF50), sandProperties().mapColor(MapColor.TERRACOTTA_YELLOW))),
+            GLACIES_STONE= register("glacies_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_YELLOW))),
+            GLACIES_COBBLESTONE = register("glacies_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_YELLOW)));
+
+    //Javea system
     // Voltic Blocks
 
 
