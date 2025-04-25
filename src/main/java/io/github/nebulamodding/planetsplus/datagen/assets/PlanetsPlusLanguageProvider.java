@@ -41,6 +41,10 @@ public class PlanetsPlusLanguageProvider extends LanguageProvider {
         // Items
         //addItem(PlanetsPlusItems.ExampleItem, "Example Item");
 
+        // Paintings
+        
+
+
         /*
         Tag Translations
          */
