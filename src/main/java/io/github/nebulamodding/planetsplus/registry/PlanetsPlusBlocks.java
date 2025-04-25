@@ -186,7 +186,7 @@ public class PlanetsPlusBlocks {
     // Molvon Blocks
 
     /*
-    Common / Generic blocks
+    Generic blocks
      */
     public static final DeferredBlock<Block>
     BASALT_SAND = register("basalt_sand", () -> new ColoredFallingBlock(new ColorRGBA(0x605F5F),sandProperties().mapColor(MapColor.STONE))),
