@@ -1,4 +1,4 @@
-// 1.21.1	2025-04-19T01:44:27.5343844	Block States: planetsplus
+// 1.21.1	2025-05-10T20:19:51.9789706	Block States: planetsplus
 f59c36ee1f8638f618ea8492c872a29b936407b5 assets/planetsplus/blockstates/atmas_cobblestone.json
 a1fe78dcd7c656babe5c6298003a0341758beeaf assets/planetsplus/blockstates/atmas_stone.json
 40fe199bb29d0d9edbfcc67ca8b718865c28759d assets/planetsplus/blockstates/basalt_sand.json
@@ -33,6 +33,9 @@ f3c33386db3ef781109356a8c5048d14390afff6 assets/planetsplus/blockstates/galia_sa
 eebc5295d4fb1a2cb140da1ab111a5b27f03df4e assets/planetsplus/blockstates/glacies_cobblestone.json
 daf2ee2e02868350b9f54f9e02d70b6609b76d10 assets/planetsplus/blockstates/glacies_sand.json
 2b246fe69d539d86e3937aa6bc516c27c5581dfb assets/planetsplus/blockstates/glacies_stone.json
+e8b4a37f5bf2f07256b6d8ca79bb9a668ccd1ad1 assets/planetsplus/blockstates/io_cobblestone.json
+3e83d8ddb66c7f8aa7df0ca4421aba06fbd09076 assets/planetsplus/blockstates/io_stone.json
+44d45b9389ff6bd27522e1999305c7578ff4d391 assets/planetsplus/blockstates/io_sulfuric_sand.json
 082ca90fba6233eb064c278ef5a319bb1709f409 assets/planetsplus/blockstates/jada_cobblestone.json
 8eff217748bcc7bdf1657784ce6096da580047b2 assets/planetsplus/blockstates/jada_sand.json
 216fbcfeef1c303e32a27194c524e1ecfcab96a9 assets/planetsplus/blockstates/jada_stone.json
@@ -83,6 +86,9 @@ acea1e1d386f6839f4c0a12adfb236ca9d741fe6 assets/planetsplus/models/block/ganymed
 8c6d437659b9c3435acf3ddb5f7384a312fc11d7 assets/planetsplus/models/block/glacies_cobblestone.json
 2d1e7b93e7e765e423b289da3d8ae41faf0b7fac assets/planetsplus/models/block/glacies_sand.json
 3b4c846d274d685345282e1d6b4644ba987ef246 assets/planetsplus/models/block/glacies_stone.json
+5bdfa31b8ef99f9442753639c578b324d365ef3a assets/planetsplus/models/block/io_cobblestone.json
+a04ffd7f97ffd547e08ca9c94d6d301bc81ad954 assets/planetsplus/models/block/io_stone.json
+9e70c44dc94c50b6914c3bb48f229de52d3852cb assets/planetsplus/models/block/io_sulfuric_sand.json
 7e1a5a985cd34be9c034482247ab865317d37321 assets/planetsplus/models/block/jada_cobblestone.json
 b7f0123b707308ba7e5c699c6745dd2bf44888af assets/planetsplus/models/block/jada_sand.json
 177e2d69aabdd033989e4dc9bdb1f9efa012b4fd assets/planetsplus/models/block/jada_stone.json
@@ -133,6 +139,9 @@ a5fd2b393a2737abd771cea5c2871d3109f1c009 assets/planetsplus/models/item/ganymede
 dbf0580daa1c872262c921c6dc99fc20324fcefd assets/planetsplus/models/item/glacies_cobblestone.json
 36caf375e8cd9525334117a1da22adf152d339ca assets/planetsplus/models/item/glacies_sand.json
 ed852a3735b8c351424e4f3e6ea61f8053e7b18c assets/planetsplus/models/item/glacies_stone.json
+01236d1e768e320e7f35fdb0670101184000ceb6 assets/planetsplus/models/item/io_cobblestone.json
+5f5690583fa062ae536522b150243657c4963ed3 assets/planetsplus/models/item/io_stone.json
+588d3fdfdb5cd077ca10c93830c17e3c74a36123 assets/planetsplus/models/item/io_sulfuric_sand.json
 bd06dc9dce92a679a65d423cc9eb6ed34e301250 assets/planetsplus/models/item/jada_cobblestone.json
 3051561c8256dd465ac97958fad024fa6f4dbec4 assets/planetsplus/models/item/jada_sand.json
 717dcb32177a4385662378e8fa34d1febd1f45df assets/planetsplus/models/item/jada_stone.json

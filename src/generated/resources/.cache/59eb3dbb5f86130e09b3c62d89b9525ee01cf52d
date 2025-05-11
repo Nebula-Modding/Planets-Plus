@@ -1,4 +1,4 @@
-// 1.21.1	2025-04-19T01:44:27.5443855	Loot Tables
+// 1.21.1	2025-05-10T20:19:51.9829699	Loot Tables
 e1c3443bc6560a78a504f2e5c9aaa3348d372e36 data/planetsplus/loot_table/blocks/atmas_cobblestone.json
 6be6dda4fdc8fb15736f3f0da805f897f57acf1b data/planetsplus/loot_table/blocks/atmas_stone.json
 5d41c5d2c3c728fdd74a9bd0b0dae9bc71c87a39 data/planetsplus/loot_table/blocks/basalt_sand.json
@@ -33,6 +33,9 @@ bcd242d4e3706dc6d52276c3c490008dce9f4905 data/planetsplus/loot_table/blocks/gany
 223cff09c2f39bcc49677441c830f931a37581f3 data/planetsplus/loot_table/blocks/glacies_cobblestone.json
 37ca653a812d283a8861a3b89034110eaf0d5665 data/planetsplus/loot_table/blocks/glacies_sand.json
 4e9856a1bce43a408fc5e191b6c2773458d02bbe data/planetsplus/loot_table/blocks/glacies_stone.json
+65a69d765dcec156ccb0ba80fb677ef0f782e07d data/planetsplus/loot_table/blocks/io_cobblestone.json
+b36013e00cb997caf299b0ffe950cff5c56b0b46 data/planetsplus/loot_table/blocks/io_stone.json
+2944ae2ddeca966448ab709c29f728a67f2e66b3 data/planetsplus/loot_table/blocks/io_sulfuric_sand.json
 6979e14eaba8ce5a901ad995a6c8616cd5b3878c data/planetsplus/loot_table/blocks/jada_cobblestone.json
 029233f8deaee91e31116ae3fe2b92a75a7efc33 data/planetsplus/loot_table/blocks/jada_sand.json
 5265d62a416dcdc2933b9ece0a21cd81f9d45bd1 data/planetsplus/loot_table/blocks/jada_stone.json
