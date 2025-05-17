@@ -23,12 +23,31 @@ public class PlanetsPlusBlocks {
     public static final DeferredBlock<Block>
             JADA_SAND = register("jada_sand", () -> new ColoredFallingBlock(new ColorRGBA(0x6b5868), sandProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
             JADA_STONE = register("jada_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
-            JADA_COBBLESTONE = register("jada_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE)));
+            JADA_COBBLESTONE = register("jada_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
+
+            //Ores / Why does it keep trying indenting it when I hit space
+
+            JADA_IRON_ORE = register("jada_iron_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
+            JADA_GOLD_ORE = register("jada_gold_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
+            JADA_EMERALD_ORE = register("jada_emerald_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
+            JADA_DIAMOND_ORE = register("jada_diamond_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
+            JADA_OSTRUM_ORE = register("jada_ostrum_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
+            JADA_ICE_SHARD_ORE = register("jada_ice_shard_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
+            JADA_COPPER_ORE = register("jada_copper_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE)));
+
 
     // Diater Blocks
     public static final DeferredBlock<Block>
             DIATER_STONE = register("diater_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_BLUE))),
-            DIATER_COBBLESTONE = register("diater_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_BLUE)));
+            DIATER_COBBLESTONE = register("diater_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_BLUE))),
+
+            //Ores
+
+            DIATER_DIAMOND_ORE = register("diater_diamond_ore", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_BLUE))),
+            DIATER_LAPIS_ORE = register("diater_lapis_ore", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_BLUE))),
+            DIATER_ICE_SHARD_ORE = register("diater_ice_shard_ore", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_BLUE))),
+            DIATER_DESH_ORE = register("diater_desh_ore", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_BLUE))),
+            DIATER_IRON_ORE = register("diater_iron_ore", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_LIGHT_BLUE)));
 
     // Io Blocks
     public static final DeferredBlock<Block>
@@ -45,7 +64,15 @@ public class PlanetsPlusBlocks {
             GANYMEDE_STONE = register("ganymede_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
             GANYMEDE_COBBLESTONE = register("ganymede_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
             GANYMEDE_HIGHLANDS_STONE = register("ganymede_highlands_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_GRAY))),
-            GANYMEDE_HIGHLANDS_COBBLESTONE = register("ganymede_highlands_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_GRAY)));
+            GANYMEDE_HIGHLANDS_COBBLESTONE = register("ganymede_highlands_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_GRAY))),
+
+            //Ores
+
+            GANYMEDE_DESH_ORE = register("ganymede_desh_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
+            GANYMEDE_IRON_ORE = register("ganymede_iron_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
+            GANYMEDE_COPPER_ORE = register("ganymede_copper_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
+            GANYMEDE_OSTRUM_ORE = register("ganymede_ostrum_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
+            GANYMEDE_ICE_SHARD_ORE = register("ganymede_ice_shard_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)));
 
     // Callisto Blocks
 
@@ -92,7 +119,16 @@ public class PlanetsPlusBlocks {
             GALIA_SAND = register("galia_sand", () -> new ColoredFallingBlock(new ColorRGBA(0xcc4380), sandProperties().mapColor(MapColor.COLOR_PINK))),
             GALIA_STONE = register("galia_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PINK))),
             GALIA_COBBLESTONE = register("galia_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PINK))),
-            VOXGLOMERATE = register("voxglomerate", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PURPLE)));
+            VOXGLOMERATE = register("voxglomerate", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PURPLE))),
+
+            //Ores
+
+            GALIA_OSTRUM_ORE = register("galia_ostrum_ore", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PINK))),
+            GALIA_IRON_ORE = register("galia_iron_ore", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PINK))),
+            GALIA_DIAMOND_ORE = register("galia_diamond_ore", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PINK))),
+            GALIA_COAL_ORE = register("galia_coal_ore", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PINK))),
+            GALIA_EMERALD_ORE = register("galia_emerald_ore", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PINK)));
+
 
     // Dytiona Blocks
     public static final DeferredBlock<Block>
@@ -105,6 +141,9 @@ public class PlanetsPlusBlocks {
      */
 
     //Soulfer Blocks
+    public static final DeferredBlock<Block>
+            SOULFER_STONE = register("soulfer_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_ORANGE))),
+            SOULFER_COBBLESTONE = register("soulfer_cobblestone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_ORANGE)));
 
     //Graze system
     // Flade Blocks
@@ -193,11 +232,14 @@ public class PlanetsPlusBlocks {
      */
     public static final DeferredBlock<Block>
     BASALT_SAND = register("basalt_sand", () -> new ColoredFallingBlock(new ColorRGBA(0x605F5F),sandProperties().mapColor(MapColor.STONE))),
-    SULFUR = register("sulfur", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_YELLOW).sound(SoundType.BASALT))); 
+    SULFUR = register("sulfur", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_YELLOW).sound(SoundType.BASALT))),
+    SOUL_STONE = register("soul_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BROWN)));
 
     /*
     Common Properties
      */
+
+    // How the fuck do you add fluids / liquids
 
     private static BlockBehaviour.Properties iceProperties() {
         return BlockBehaviour.Properties.ofFullCopy(Blocks.ICE);
@@ -208,6 +250,9 @@ public class PlanetsPlusBlocks {
                 .instabreak()
                 .sound(SoundType.GRASS)
                 .pushReaction(PushReaction.DESTROY);
+    }
+    private static BlockBehaviour.Properties liquidProperties() {
+        return BlockBehaviour.Properties.ofFullCopy(Blocks.WATER);
     }
     private static BlockBehaviour.Properties grassProperties() {
         return BlockBehaviour.Properties.ofFullCopy(Blocks.GRASS_BLOCK);

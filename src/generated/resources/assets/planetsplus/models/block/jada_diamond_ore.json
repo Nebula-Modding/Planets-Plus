@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "planetsplus:block/jada_diamond_ore"
+  }
+}
