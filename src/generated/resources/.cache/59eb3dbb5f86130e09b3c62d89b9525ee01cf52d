@@ -1,4 +1,4 @@
-// 1.21.1	2025-05-16T21:12:41.4950342	Loot Tables
+// 1.21.1	2025-05-17T02:26:33.6317255	Loot Tables
 e1c3443bc6560a78a504f2e5c9aaa3348d372e36 data/planetsplus/loot_table/blocks/atmas_cobblestone.json
 6be6dda4fdc8fb15736f3f0da805f897f57acf1b data/planetsplus/loot_table/blocks/atmas_stone.json
 5d41c5d2c3c728fdd74a9bd0b0dae9bc71c87a39 data/planetsplus/loot_table/blocks/basalt_sand.json
@@ -70,7 +70,12 @@ f62d2f7ead01c5c3df61235fe353fad66669aa21 data/planetsplus/loot_table/blocks/ring
 dd7125b8595166ce1a9973293ee15e6be8f7c896 data/planetsplus/loot_table/blocks/ringetic_sand.json
 e51cb87e3fc1db98e45939382d1dc73d64c38ce3 data/planetsplus/loot_table/blocks/ringetic_stone.json
 33d1a5c6af6d6bd46f8aa6350e48f61da302aa0f data/planetsplus/loot_table/blocks/soulfer_cobblestone.json
+55f212a9cc372fcaf022270728fc696141cb5658 data/planetsplus/loot_table/blocks/soulfer_copper_ore.json
+c194f46db9ef9bce370f4b58d594513b86f39a4c data/planetsplus/loot_table/blocks/soulfer_diamond_ore.json
+f177af7bfbad27e31166fb48539c0288a2ccefaf data/planetsplus/loot_table/blocks/soulfer_iron_ore.json
+32498c5c88519218f6af98bf887e8ff5133ca103 data/planetsplus/loot_table/blocks/soulfer_ostrum_ore.json
 ac0943bc7e0dacf962252e4a3f2cda9d0c877544 data/planetsplus/loot_table/blocks/soulfer_stone.json
+f796b96e602410cb57859b8969300fb62a3b5989 data/planetsplus/loot_table/blocks/soul_magma.json
 acc834176442480cfd9fc79df3f40a05bfb128aa data/planetsplus/loot_table/blocks/soul_stone.json
 d419e0b713cdfbf2fbaf41b25cb2f1dbad04b39e data/planetsplus/loot_table/blocks/sulfur.json
 e48be8b4032cc10a0d98f524b9ad9055881cfee6 data/planetsplus/loot_table/blocks/voxglomerate.json

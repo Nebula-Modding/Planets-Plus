@@ -2,10 +2,7 @@
   "type": "minecraft:delta_feature",
   "config": {
     "contents": {
-      "Name": "minecraft:cobbled_deepslate",
-      "Properties": {
-        "level": "0"
-      }
+      "Name": "minecraft:cobbled_deepslate"
     },
     "rim": {
       "Name": "minecraft:cobblestone"

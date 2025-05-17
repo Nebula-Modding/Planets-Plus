@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "planetsplus:soulfer_stone",
+	"planetsplus:soul_stone",
+	"minecraft:soul_sand",
+	"minecraft:soul_soil"
+  ]
+}
