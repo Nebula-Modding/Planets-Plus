@@ -47,4 +47,6 @@ public class PlanetsPlusItems {
                 .attributes(SwordItem.createAttributes(tier, attackDamage, attackSpeed))
         ));
     }
+
+    public static DeferredItem<BucketItem> register(String id, Object o) {
 }

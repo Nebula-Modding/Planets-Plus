@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "planetsplus:block/chiseled_soulfer_stone_bricks"
+  }
+}

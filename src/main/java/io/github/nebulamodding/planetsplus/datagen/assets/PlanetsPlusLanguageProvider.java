@@ -42,7 +42,7 @@ public class PlanetsPlusLanguageProvider extends LanguageProvider {
         //addItem(PlanetsPlusItems.ExampleItem, "Example Item");
 
         // Paintings
-        
+        addTranslations();
 
 
         /*
