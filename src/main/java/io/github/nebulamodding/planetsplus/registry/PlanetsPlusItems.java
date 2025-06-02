@@ -11,10 +11,6 @@ public class PlanetsPlusItems {
 
     public static final DeferredItem<Item>
             DESH_HANDLE = ITEMS.register("desh_handle", () -> new Item(new Item.Properties()));
-    private static PlanetsPlusItems register;
-    public static final PlanetsPlusItems R = register; // Emma please helpeis
-
-    
 
     /*
     Helpers

@@ -12,8 +12,12 @@ import net.neoforged.neoforge.fluids.FluidType;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
+import org.jetbrains.annotations.ApiStatus;
 import org.jetbrains.annotations.NotNull;
 import org.joml.Vector3f;
+
+@SuppressWarnings("unused")
+@ApiStatus.NonExtendable
 
     public final class PlanetsPlusLiquidTypes {
         private PlanetsPlusLiquidTypes() {
