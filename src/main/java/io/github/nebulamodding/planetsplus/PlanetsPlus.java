@@ -2,10 +2,7 @@ package io.github.nebulamodding.planetsplus;
 
 import io.github.nebulamodding.planetsplus.datagen.PlanetsPlusDataGeneration;
 import io.github.nebulamodding.planetsplus.foundation.liquids.BasicLiquidType;
-import io.github.nebulamodding.planetsplus.registry.PlanetsPlusBlocks;
-import io.github.nebulamodding.planetsplus.registry.PlanetsPlusCreativeTab;
-import io.github.nebulamodding.planetsplus.registry.PlanetsPlusItems;
-import io.github.nebulamodding.planetsplus.registry.PlanetsPlusLiquidTypes;
+import io.github.nebulamodding.planetsplus.registry.*;
 import net.minecraft.tags.FluidTags;
 import net.neoforged.neoforge.fluids.FluidType;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -35,7 +32,7 @@ public class PlanetsPlus {
         PlanetsPlusBlocks.BLOCKS.register(eventBus);
         PlanetsPlusItems.ITEMS.register(eventBus);
         PlanetsPlusCreativeTab.CREATIVE_MODE_TABS.register(eventBus);
-        DeferredHolder<FluidType, BasicLiquidType> liquidSulfur = PlanetsPlusLiquidTypes.LIQUID_SULFUR;
+        PlanetsPlusLiquids.LIQUID_SULFUR.get();
 
         eventBus.addListener(PlanetsPlusCreativeTab::buildCreativeTab);
         eventBus.addListener(PlanetsPlusDataGeneration::gatherData);
