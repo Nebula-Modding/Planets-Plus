@@ -15,40 +15,36 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import org.jetbrains.annotations.ApiStatus;
 
 import java.util.function.Supplier;
-@SuppressWarnings("unused")
-@ApiStatus.NonExtendable
-
-// im not going your going insane im not going your going insane im not going your going insane im not going your going insane im not going your going insane im not going your going insane im not going your going insane  - carrot
+// im not going your going insane im not going your going insane im not going your going insane - carrot
         public interface PlanetsPlusLiquids
         {
-            DeferredRegister<Fluid> R = DeferredRegister.create(Registries.FLUID, PlanetsPlus.MOD_ID);
-            private static DeferredHolder<Fluid, FlowingFluid> regSource(String id, Supplier<BaseFlowingFluid.Properties> properties)
+            DeferredRegister<Fluid> REGISTER = DeferredRegister.create(Registries.FLUID, PlanetsPlus.MOD_ID);
+            private static DeferredHolder<Fluid, FlowingFluid> regSource(Supplier<BaseFlowingFluid.Properties> properties)
             {
-                return R.register(id, () -> new BaseFlowingFluid.Source(properties.get()));
+                return REGISTER.register("liquid_sulfur", () -> new BaseFlowingFluid.Source(properties.get()));
             }
 
-            private static DeferredHolder<Fluid, FlowingFluid> regFlowing(String id, Supplier<BaseFlowingFluid.Properties> properties)
+            private static DeferredHolder<Fluid, FlowingFluid> regFlowing(Supplier<BaseFlowingFluid.Properties> properties)
             {
-                return R.register(id, () -> new BaseFlowingFluid.Flowing(properties.get()));
+                return REGISTER.register("liquid_sulfur_flowing", () -> new BaseFlowingFluid.Flowing(properties.get()));
             }
 
-            private static DeferredBlock<LiquidBlock> regBlock(String id, Supplier<FlowingFluid> sourceSupplier)
+            private static DeferredBlock<LiquidBlock> regBlock()
             {
-                return PlanetsPlusBlocks.R.register(id, () -> new LiquidBlock(sourceSupplier.get(), BlockBehaviour.Properties.ofFullCopy(Blocks.WATER).noLootTable()));
+                return PlanetsPlusBlocks.BLOCKS.register("liquid_sulfur", () -> new LiquidBlock(((Supplier<FlowingFluid>) PlanetsPlusLiquids.LIQUID_SULFUR).get(), BlockBehaviour.Properties.ofFullCopy(Blocks.WATER).noLootTable()));
             }
 
-            private static DeferredItem<BucketItem> regBucket(String id, Supplier<FlowingFluid> sourceSupplier) {
-                return PlanetsPlusItems.R.register(id, () -> new BucketItem(sourceSupplier.get(), new Item.Properties().stacksTo(1).craftRemainder(Items.BUCKET)));
+            private static DeferredItem<BucketItem> regBucket() {
+                return PlanetsPlusItems.ITEMS.register("liquid_sulfur_bucket", () -> new BucketItem(((Supplier<FlowingFluid>) PlanetsPlusLiquids.LIQUID_SULFUR).get(), new Item.Properties().stacksTo(1).craftRemainder(Items.BUCKET)));
             }
 
             // Liquid Sulfur
-            DeferredHolder<Fluid, FlowingFluid> LIQUID_SULFUR = regSource("liquid_sulfur", () -> PlanetsPlusLiquids.LIQUID_SULFUR_PROPERTIES);
-            DeferredHolder<Fluid, FlowingFluid> LIQUID_SULFUR_FLOWING = regFlowing("liquid_sulfur_flowing", () -> PlanetsPlusLiquids.LIQUID_SULFUR_PROPERTIES);
-            DeferredBlock<LiquidBlock> LIQUID_SULFUR_BLOCK = regBlock("liquid_sulfur", PlanetsPlusLiquids.LIQUID_SULFUR);
-            DeferredItem<BucketItem> LIQUID_SULFUR_BUCKET = regBucket("liquid_sulfur_bucket", PlanetsPlusLiquids.LIQUID_SULFUR);
+            DeferredHolder<Fluid, FlowingFluid> LIQUID_SULFUR = regSource(() -> PlanetsPlusLiquids.LIQUID_SULFUR_PROPERTIES);
+            DeferredHolder<Fluid, FlowingFluid> LIQUID_SULFUR_FLOWING = regFlowing(() -> PlanetsPlusLiquids.LIQUID_SULFUR_PROPERTIES);
+            DeferredBlock<LiquidBlock> LIQUID_SULFUR_BLOCK = regBlock();
+            DeferredItem<BucketItem> LIQUID_SULFUR_BUCKET = regBucket();
 
             BaseFlowingFluid.Properties LIQUID_SULFUR_PROPERTIES = new BaseFlowingFluid.Properties(
                     PlanetsPlusLiquidTypes.LIQUID_SULFUR,

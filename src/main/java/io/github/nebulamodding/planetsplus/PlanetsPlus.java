@@ -32,6 +32,10 @@ public class PlanetsPlus {
         PlanetsPlusBlocks.BLOCKS.register(eventBus);
         PlanetsPlusItems.ITEMS.register(eventBus);
         PlanetsPlusCreativeTab.CREATIVE_MODE_TABS.register(eventBus);
+        PlanetsPlusLiquids.REGISTER.register(eventBus);
+        PlanetsPlusLiquidTypes.REGISTER.register(eventBus);
+
+
 
         eventBus.addListener(PlanetsPlusCreativeTab::buildCreativeTab);
         eventBus.addListener(PlanetsPlusDataGeneration::gatherData);
