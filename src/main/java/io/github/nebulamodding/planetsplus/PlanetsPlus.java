@@ -32,7 +32,6 @@ public class PlanetsPlus {
         PlanetsPlusBlocks.BLOCKS.register(eventBus);
         PlanetsPlusItems.ITEMS.register(eventBus);
         PlanetsPlusCreativeTab.CREATIVE_MODE_TABS.register(eventBus);
-        PlanetsPlusLiquids.LIQUID_SULFUR.get();
 
         eventBus.addListener(PlanetsPlusCreativeTab::buildCreativeTab);
         eventBus.addListener(PlanetsPlusDataGeneration::gatherData);
