@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "planetsplus:galia_stone",
+	"planetsplus:galia_cobblestone",
+	"minecraft:basalt",
+	"minecraft:smooth_basalt",
+	"minecraft:cobblestone",
+	"minecraft:tuff"
+  ]
+}

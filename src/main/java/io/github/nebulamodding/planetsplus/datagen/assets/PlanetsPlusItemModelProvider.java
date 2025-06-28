@@ -2,6 +2,8 @@ package io.github.nebulamodding.planetsplus.datagen.assets;
 
 import io.github.nebulamodding.planetsplus.PlanetsPlus;
 import io.github.nebulamodding.planetsplus.registry.PlanetsPlusItems;
+import io.github.nebulamodding.planetsplus.registry.PlanetsPlusLiquidTypes;
+import io.github.nebulamodding.planetsplus.registry.PlanetsPlusLiquids;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.*;
 import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
@@ -28,12 +30,14 @@ public class PlanetsPlusItemModelProvider extends ItemModelProvider {
         final List<DeferredHolder<Item, ? extends Item>> excludedItems = new ArrayList<>();
         // Items excluded from having a model automatically provided
         excludedItems.add(PlanetsPlusItems.DESH_HANDLE);
+        //excludedItems.add(PlanetsPlusLiquids.LIQUID_SULFUR_BUCKET);
 
         /*
         Manual Item Models
          */
 
         itemModel(PlanetsPlusItems.DESH_HANDLE, HANDHELD);
+        //itemModel(PlanetsPlusLiquids.LIQUID_SULFUR_BUCKET, HANDHELD);
 
         /*
         Manual Block Item Models

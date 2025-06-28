@@ -28,32 +28,32 @@ public class BasicLiquidType extends FluidType {
         this.fogColour = fogColour;
     }
 
-    public static IClientFluidTypeExtensions getClientExtensionsFor(BasicLiquidType fluidType) {
+    public static IClientFluidTypeExtensions getClientExtensionsFor(BasicLiquidType FluidType) {
         return new IClientFluidTypeExtensions() {
             @Override
             public @NotNull ResourceLocation getStillTexture() {
-                return fluidType.stillTexture;
+                return FluidType.stillTexture;
             }
 
             @Override
             public @NotNull ResourceLocation getFlowingTexture() {
-                return fluidType.flowingTexture;
+                return FluidType.flowingTexture;
             }
 
             @Override
             public @NotNull ResourceLocation getOverlayTexture() {
-                return fluidType.overlayTexture;
+                return FluidType.overlayTexture;
             }
 
             @Override
             public int getTintColor() {
-                return fluidType.tintColour;
+                return FluidType.tintColour;
             }
 
             @Override
             @ParametersAreNonnullByDefault
             public @NotNull Vector3f modifyFogColor(Camera camera, float partialTick, ClientLevel level, int renderDistance, float darkenWorldAmount, Vector3f fluidFogColour) {
-                return fluidType.fogColour;
+                return FluidType.fogColour;
             }
 
             @Override

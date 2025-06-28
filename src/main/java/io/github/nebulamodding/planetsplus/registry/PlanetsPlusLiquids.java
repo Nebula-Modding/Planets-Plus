@@ -31,20 +31,20 @@ import java.util.function.Supplier;
                 return REGISTER.register("liquid_sulfur_flowing", () -> new BaseFlowingFluid.Flowing(properties.get()));
             }
 
-            private static DeferredBlock<LiquidBlock> regBlock()
+            private static DeferredBlock<LiquidBlock> getLiquidSulfurBlock()
             {
                 return PlanetsPlusBlocks.BLOCKS.register("liquid_sulfur", () -> new LiquidBlock(((Supplier<FlowingFluid>) PlanetsPlusLiquids.LIQUID_SULFUR).get(), BlockBehaviour.Properties.ofFullCopy(Blocks.WATER).noLootTable()));
             }
 
-            private static DeferredItem<BucketItem> regBucket() {
+            private static DeferredItem<BucketItem> BUCKET_ITEM_DEFERRED_ITEM() {
                 return PlanetsPlusItems.ITEMS.register("liquid_sulfur_bucket", () -> new BucketItem(((Supplier<FlowingFluid>) PlanetsPlusLiquids.LIQUID_SULFUR).get(), new Item.Properties().stacksTo(1).craftRemainder(Items.BUCKET)));
             }
 
             // Liquid Sulfur
             DeferredHolder<Fluid, FlowingFluid> LIQUID_SULFUR = regSource(() -> PlanetsPlusLiquids.LIQUID_SULFUR_PROPERTIES);
             DeferredHolder<Fluid, FlowingFluid> LIQUID_SULFUR_FLOWING = regFlowing(() -> PlanetsPlusLiquids.LIQUID_SULFUR_PROPERTIES);
-            DeferredBlock<LiquidBlock> LIQUID_SULFUR_BLOCK = regBlock();
-            DeferredItem<BucketItem> LIQUID_SULFUR_BUCKET = regBucket();
+            DeferredBlock<LiquidBlock> LIQUID_SULFUR_BLOCK = getLiquidSulfurBlock();
+            DeferredItem<BucketItem> LIQUID_SULFUR_BUCKET = BUCKET_ITEM_DEFERRED_ITEM();
 
             BaseFlowingFluid.Properties LIQUID_SULFUR_PROPERTIES = new BaseFlowingFluid.Properties(
                     PlanetsPlusLiquidTypes.LIQUID_SULFUR,

@@ -41,7 +41,7 @@ public class PlanetsPlusDataGeneration {
                 generator.addProvider(true, new PlanetsPlusLootTableProvider(output, newLookup));
             }
         } catch (RuntimeException e) {
-            PlanetsPlus.LOGGER.error("Failed to gather Planets+'s data (only found moons- data :/)", e);
+            PlanetsPlus.LOGGER.error("Failed to gather Planets+'s data (only found Moons- data :/)", e);
         }
     }
 }

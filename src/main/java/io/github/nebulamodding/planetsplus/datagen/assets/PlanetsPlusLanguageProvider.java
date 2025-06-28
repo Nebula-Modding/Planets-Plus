@@ -1,10 +1,7 @@
 package io.github.nebulamodding.planetsplus.datagen.assets;
 
 import io.github.nebulamodding.planetsplus.PlanetsPlus;
-import io.github.nebulamodding.planetsplus.registry.PlanetsPlusBlocks;
-import io.github.nebulamodding.planetsplus.registry.PlanetsPlusCreativeTab;
-import io.github.nebulamodding.planetsplus.registry.PlanetsPlusItems;
-import io.github.nebulamodding.planetsplus.registry.PlanetsPlusTags;
+import io.github.nebulamodding.planetsplus.registry.*;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -12,6 +9,7 @@ import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredRegister;
 import org.codehaus.plexus.util.StringUtils;
 
 import java.util.ArrayList;
@@ -40,9 +38,10 @@ public class PlanetsPlusLanguageProvider extends LanguageProvider {
 
         // Items
         //addItem(PlanetsPlusItems.ExampleItem, "Example Item");
+        //addItem(PlanetsPlusLiquids.LIQUID_SULFUR_BUCKET, "Bucket of Liquid Sulfur");
 
         // Paintings
-        addTranslations();
+        //addTranslations();
 
 
         /*

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "planetsplus:jada_stone",
+	"minecraft:andesite",
+	"minecraft:smooth_basalt",
+	"minecraft:tuff"
+  ]
+}

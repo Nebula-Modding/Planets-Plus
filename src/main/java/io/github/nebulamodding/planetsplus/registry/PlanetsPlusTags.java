@@ -60,9 +60,15 @@ public class PlanetsPlusTags {
                 VULCAN_CARVER_REPLACEABLES = blockTag("vulcan_carver_replaceables"),
                 UNITY_CARVER_REPLACEABLES = blockTag("unity_carver_replaceables"),
 
-                // Ore Replacables
-                VULCAN_STONE_ORE_REPLACEABLES = blockTag("vulcan_stone_ore_replaceables")
-        ;
+                // Ore Replaceables
+                VULCAN_STONE_ORE_REPLACEABLES = blockTag("vulcan_stone_ore_replaceables"),
+
+                // World Gen
+
+
+                SPIKE_REPLACEABLE = blockTag("spike_replaceables");
+
+
     }
     public static class PlanetsPlusItemTags {
         // Block Items
@@ -81,8 +87,7 @@ public class PlanetsPlusTags {
 
                 // Storage Blocks
                 STORAGE_BLOCKS_ROSINRITE = commonItemTag("storage_blocks/rosinrite"),
-                STORAGE_BLOCKS_RAW_ROSINRITE = commonItemTag("storage_blocks/raw_rosinrite")
-        ;
+                STORAGE_BLOCKS_RAW_ROSINRITE = commonItemTag("storage_blocks/raw_rosinrite");
         // Items
         public static final TagKey<Item>
                 // Adds a plates tag because neoforge doesn't have a common tag for it by default
@@ -93,7 +98,6 @@ public class PlanetsPlusTags {
                 NUGGETS_ROSINRITE = commonItemTag("nuggets/rosinrite"),
                 INGOTS_ROSINRITE = commonItemTag("ingots/rosinrite"),
                 PLATES_ROSINRITE = commonItemTag("plates/rosinrite"),
-                RODS_ROSINRITE = commonItemTag("rods/rosinrite")
-        ;
+                RODS_ROSINRITE = commonItemTag("rods/rosinrite");
     }
 }
