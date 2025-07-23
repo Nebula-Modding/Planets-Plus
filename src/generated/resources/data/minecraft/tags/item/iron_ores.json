@@ -1,3 +1,9 @@
 {
-  "values": []
+  "values": [
+    "planetsplus:diater_iron_ore",
+    "planetsplus:galia_iron_ore",
+    "planetsplus:ganymede_iron_ore",
+    "planetsplus:jada_iron_ore",
+    "planetsplus:soulfer_iron_ore"
+  ]
 }

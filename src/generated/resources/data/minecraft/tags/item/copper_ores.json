@@ -1,3 +1,7 @@
 {
-  "values": []
+  "values": [
+    "planetsplus:ganymede_copper_ore",
+    "planetsplus:jada_copper_ore",
+    "planetsplus:soulfer_copper_ore"
+  ]
 }

@@ -33,8 +33,6 @@ public class PlanetsPlus {
         PlanetsPlusItems.ITEMS.register(eventBus);
         PlanetsPlusCreativeTab.CREATIVE_MODE_TABS.register(eventBus);
 
-
-
         eventBus.addListener(PlanetsPlusCreativeTab::buildCreativeTab);
         eventBus.addListener(PlanetsPlusDataGeneration::gatherData);
 

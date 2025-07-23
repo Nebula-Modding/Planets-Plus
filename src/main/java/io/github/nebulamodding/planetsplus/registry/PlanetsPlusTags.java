@@ -29,6 +29,9 @@ public class PlanetsPlusTags {
                 Common Tags
                  */
 
+                //Stones
+                STONES = commonBlockTag("stones"),
+
                 // Cobblestones
                 COBBLESTONES_VULCAN_STONE = commonBlockTag("cobblestones/vulcan_stone"),
 
@@ -49,6 +52,8 @@ public class PlanetsPlusTags {
                 Planets+ Tags
                  */
 
+
+
                 // Needs Tools
                 NEEDS_ROSINRITE_TOOL = blockTag("needs_rosinrite_tool"),
 
@@ -65,8 +70,7 @@ public class PlanetsPlusTags {
 
                 // World Gen
 
-
-                SPIKE_REPLACEABLE = blockTag("spike_replaceables");
+                SPIKE_REPLACEABLES = blockTag("worldgen/spike_replaceables");
 
 
     }
