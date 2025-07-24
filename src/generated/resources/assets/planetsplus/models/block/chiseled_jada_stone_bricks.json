@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "planetsplus:block/chiseled_jada_stone_bricks"
+  }
+}

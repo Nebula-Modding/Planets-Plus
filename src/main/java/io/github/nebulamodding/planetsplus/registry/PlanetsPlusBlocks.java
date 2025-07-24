@@ -33,8 +33,13 @@ public class PlanetsPlusBlocks {
             JADA_DIAMOND_ORE = register("jada_diamond_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
             JADA_OSTRUM_ORE = register("jada_ostrum_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
             JADA_ICE_SHARD_ORE = register("jada_ice_shard_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
-            JADA_COPPER_ORE = register("jada_copper_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE)));
+            JADA_COPPER_ORE = register("jada_copper_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
 
+            //Building blocks
+
+            POLISHED_JADA_STONE = register("polished_jada_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
+            JADA_STONE_BRICKS = register("jada_stone_bricks", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
+            CHISELED_JADA_STONE_BRICKS = register("chiseled_jada_stone_bricks", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE)));
 
     // Diater Blocks
     public static final DeferredBlock<Block>

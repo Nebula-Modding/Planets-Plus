@@ -1,7 +1,8 @@
-// 1.21.1	2025-06-26T06:29:41.9254242	Loot Tables
+// 1.21.1	2025-07-24T13:23:18.0724889	Loot Tables
 e1c3443bc6560a78a504f2e5c9aaa3348d372e36 data/planetsplus/loot_table/blocks/atmas_cobblestone.json
 6be6dda4fdc8fb15736f3f0da805f897f57acf1b data/planetsplus/loot_table/blocks/atmas_stone.json
 5d41c5d2c3c728fdd74a9bd0b0dae9bc71c87a39 data/planetsplus/loot_table/blocks/basalt_sand.json
+a41238383e3220204c49cf09b257d511ce730958 data/planetsplus/loot_table/blocks/chiseled_jada_stone_bricks.json
 0e25641935e3db465383621287656c11d2c89e47 data/planetsplus/loot_table/blocks/chiseled_soulfer_stone_bricks.json
 6e08f5c54a2bde269bd85d9f9ffbb1630f187f8e data/planetsplus/loot_table/blocks/diater_cobblestone.json
 0ab027b879c97d0dd229d522fc7efe4269613e63 data/planetsplus/loot_table/blocks/diater_desh_ore.json
@@ -71,6 +72,7 @@ d67031112ad912f9b71fb8cf80187acf30fa7253 data/planetsplus/loot_table/blocks/jada
 6abe4d892bd574e450a3d1723244bc27e1024f93 data/planetsplus/loot_table/blocks/jada_ostrum_ore.json
 029233f8deaee91e31116ae3fe2b92a75a7efc33 data/planetsplus/loot_table/blocks/jada_sand.json
 5265d62a416dcdc2933b9ece0a21cd81f9d45bd1 data/planetsplus/loot_table/blocks/jada_stone.json
+489d48a05e966e7bcfb75664fdb5c24567d7cac5 data/planetsplus/loot_table/blocks/jada_stone_bricks.json
 4956e8fb9946842a158ddd5943c9acf6259d29e5 data/planetsplus/loot_table/blocks/mixeus_cobblestone.json
 28cb26c4300069f9f3ae4b8ceeba36290ac45f7e data/planetsplus/loot_table/blocks/mixeus_dusty_sand.json
 542799ecede05a2518e0af01bed17152ae8a0fd3 data/planetsplus/loot_table/blocks/mixeus_polished_sand.json
@@ -86,6 +88,7 @@ d9b67819deaa08da66f365447f9fc7b1204804a0 data/planetsplus/loot_table/blocks/poli
 d3b4c24f2256e6b26d1e2cc8fcb53cb568175e0d data/planetsplus/loot_table/blocks/polished_ganymede_stone.json
 94183145d16c072162523d1451458aa6fc94780f data/planetsplus/loot_table/blocks/polished_glacies_stone.json
 95e738535e6b52471c839e9b3df658b2f6ed66fe data/planetsplus/loot_table/blocks/polished_io_stone.json
+4ffc305313d94bb3b71a09a87211b0e506db1ea5 data/planetsplus/loot_table/blocks/polished_jada_stone.json
 17e1b2b16baca600aafb26cefe24d83b34d63a29 data/planetsplus/loot_table/blocks/polished_mixeus_stone.json
 47025b61d5504aa94c596899745ca88be3907871 data/planetsplus/loot_table/blocks/polished_soulfer_stone.json
 42483e8bc00493b157d09afb74051e125971df41 data/planetsplus/loot_table/blocks/polished_voxglomerate.json
