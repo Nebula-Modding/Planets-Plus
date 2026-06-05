@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:yellow_wool",
+	"planetsplus:fierer_stone",
+	"minecraft:cobbled_deepslate"
+  ]
+}

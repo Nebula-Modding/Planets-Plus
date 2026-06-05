@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+	"planetsplus:dune_stone",
+	"planetsplus:dune_cobblestone",
+	"planetsplus:dune_sand"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+	"planetsplus:flade_stone",
+	"minecraft:red_wool",
+	"minecraft:magma_block",
+	"minecraft:blackstone",
+	"minecraft:smooth_basalt"
+  ]
+}

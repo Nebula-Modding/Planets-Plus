@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+  "planetsplus:atmas_stone",
+	"planetsplus:atmas_cobblestone",
+  "minecraft:amethyst_block",
+	"minecraft:smooth_basalt",
+	"minecraft:cobbled_deepslate",
+	"minecraft:calcite"
+  ]
+}

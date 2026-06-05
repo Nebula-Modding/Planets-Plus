@@ -371,10 +371,6 @@ public class PlanetsPlusBlockTagsProvider extends BlockTagsProvider {
 
         tag(Tags.Blocks.ORE_RATES_SPARSE);
 
-        tag(PlanetsPlusTags.PlanetsPlusBlockTags.ORE_BEARING_GROUND_VULCAN_STONE);
-        tag(PlanetsPlusTags.PlanetsPlusBlockTags.ORES_IN_GROUND_VULCAN_STONE);
-
-        vulcanStoneOres.forEach(entry -> tag(PlanetsPlusTags.PlanetsPlusBlockTags.ORES_IN_GROUND_VULCAN_STONE).add(entry.get()));
 
         /*
         Stone Tags
@@ -464,14 +460,128 @@ public class PlanetsPlusBlockTagsProvider extends BlockTagsProvider {
         Worldgen Tags
          */
 
-        //Ores replaceables
-        tag(PlanetsPlusTags.PlanetsPlusBlockTags.VULCAN_STONE_ORE_REPLACEABLES);
+        //Ores replaceables tags
+        //Worldgen btw
+        //Solar system
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.JADA_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.JADA_STONE.get())
+                .add(Blocks.ANDESITE)
+                .add(Blocks.TUFF)
+                .add(Blocks.SMOOTH_BASALT);
 
-        tag(PlanetsPlusTags.PlanetsPlusBlockTags.SPIKE_REPLACEABLES)
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.DIATER_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.DIATER_STONE.get());
 
-                //Atmas
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.IO_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.IO_STONE.get());
+
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.EUROPA_ORE_REPLACEABLES);
+
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.GANYMEDE_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.GANYMEDE_STONE.get());
+
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.CALLISTO_ORE_REPLACEABLES);
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.ENCELEDUS_ORE_REPLACEABLES);
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.TITAN_ORE_REPLACEABLES);
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.IAPETUS_ORE_REPLACEABLES);
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.PLUTO_ORE_REPLACEABLES);
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.CHARON_ORE_REPLACEABLES);
+
+        //Kelper Centauri
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.VULCAN_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.VULCAN_STONE.get());
+
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.FIERER_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.FIERER_STONE.get())
+                .add(Blocks.YELLOW_WOOL)
+                .add(Blocks.COBBLED_DEEPSLATE);
+
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.GALIA_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.GALIA_STONE.get())
+                .add(PlanetsPlusBlocks.GALIA_COBBLESTONE.get())
+                .add(Blocks.BASALT)
+                .add(Blocks.SMOOTH_BASALT)
+                .add(Blocks.COBBLESTONE)
+                .add(Blocks.TUFF);
+
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.DYTIONA_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.DYTIONA_STONE.get());
+
+        //Syris
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.SOULFER_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.SOULFER_STONE.get())
+                .add(PlanetsPlusBlocks.SOUL_STONE.get())
+                .add(Blocks.SOUL_SAND)
+                .add(Blocks.SOUL_SOIL);
+
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.FLADE_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.FLADE_STONE.get())
+                .add(Blocks.MAGMA_BLOCK)
+                .add(Blocks.SMOOTH_BASALT)
+                .add(Blocks.BLACKSTONE);
+
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.MIXEUS_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.MIXEUS_STONE.get())
+                .add(Blocks.DIORITE);
+
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.DUNE_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.DUNE_SAND.get())
+                .add(PlanetsPlusBlocks.DUNE_STONE.get())
+                .add(PlanetsPlusBlocks.DUNE_COBBLESTONE.get());
+
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.DREAD_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.DREAD_STONE.get());
+
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.GLACIES_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.GLACIES_STONE.get())
+                .add(Blocks.SNOW_BLOCK)
+                .add(Blocks.PACKED_ICE)
+                .add(Blocks.BLUE_ICE);
+
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.VOLTIC_ORE_REPLACEABLES);
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.VONIC_ORE_REPLACEABLES);
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.REVEDA_ORE_REPLACEABLES);
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.OBRINA_ORE_REPLACEABLES);
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.BAYDIN_ORE_REPLACEABLES);
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.EVEDVA_ORE_REPLACEABLES);
+
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.ECLIPSA_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.ECLIPSA_STONE.get())
+                .add(Blocks.SMOOTH_BASALT)
+                .add(Blocks.PACKED_ICE)
+                .add(Blocks.BLACKSTONE)
+                .add(Blocks.MAGMA_BLOCK)
+                .add(Blocks.COBBLED_DEEPSLATE);
+
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.ATMAS_ORE_REPLACEABLES)
                 .add(PlanetsPlusBlocks.ATMAS_STONE.get())
                 .add(PlanetsPlusBlocks.ATMAS_COBBLESTONE.get())
+                .add(Blocks.AMETHYST_BLOCK)
+                .add(Blocks.SMOOTH_BASALT)
+                .add(Blocks.COBBLESTONE)
+                .add(Blocks.CALCITE);
+
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.RINGETIC_ORE_REPLACEABLES)
+                .add(PlanetsPlusBlocks.RINGETIC_STONE.get())
+                .add(PlanetsPlusBlocks.RINGETIC_COBBLESTONE.get())
+                .add(PlanetsPlusBlocks.RINGETIC_FROSTSTONE.get())
+                .add(PlanetsPlusBlocks.VOXGLOMERATE.get())
+                .add(Blocks.AMETHYST_BLOCK)
+                .add(Blocks.COBBLESTONE)
+                .add(Blocks.GRANITE);
+
+        //Worldgen spike replaceable (Do them here instead of the datapack)
+        tag(PlanetsPlusTags.PlanetsPlusBlockTags.SPIKE_REPLACEABLES)
+                //Jada
+                .add(PlanetsPlusBlocks.JADA_STONE.get())
+                .add(PlanetsPlusBlocks.JADA_COBBLESTONE.get())
+                .add(PlanetsPlusBlocks.JADA_COPPER_ORE.get())
+                .add(PlanetsPlusBlocks.JADA_IRON_ORE.get())
+                .add(PlanetsPlusBlocks.JADA_GOLD_ORE.get())
+                .add(PlanetsPlusBlocks.JADA_EMERALD_ORE.get())
+                .add(PlanetsPlusBlocks.JADA_ICE_SHARD_ORE.get())
+                .add(PlanetsPlusBlocks.JADA_OSTRUM_ORE.get())
+                .add(PlanetsPlusBlocks.JADA_DIAMOND_ORE.get())
 
                 //Diater
                 .add(PlanetsPlusBlocks.DIATER_STONE.get())
@@ -481,52 +591,13 @@ public class PlanetsPlusBlockTagsProvider extends BlockTagsProvider {
                 .add(PlanetsPlusBlocks.DIATER_LAPIS_ORE.get())
                 .add(PlanetsPlusBlocks.DIATER_ICE_SHARD_ORE.get())
 
-                //Dread
-                .add(PlanetsPlusBlocks.DREAD_STONE.get())
-                .add(PlanetsPlusBlocks.DREAD_COBBLESTONE.get())
-                .add(PlanetsPlusBlocks.DREAD_DRIPSTONE.get())
-                .add(PlanetsPlusBlocks.POLISHED_DREAD_STONE.get())
-                .add(PlanetsPlusBlocks.DREAD_STONE_BRICKS.get())
+                //Io
+                .add(PlanetsPlusBlocks.IO_STONE.get())
+                .add(PlanetsPlusBlocks.IO_COBBLESTONE.get())
+                .add(PlanetsPlusBlocks.POLISHED_IO_STONE.get())
+                .add(PlanetsPlusBlocks.IO_STONE_BRICKS.get())
 
-                //Dytiona
-                .add(PlanetsPlusBlocks.DYTIONA_STONE.get())
-                .add(PlanetsPlusBlocks.DYTIONA_COBBLESTONE.get())
-                .add(PlanetsPlusBlocks.POLISHED_DYTIONA_STONE.get())
-                .add(PlanetsPlusBlocks.DYTIONA_STONE_BRICKS.get())
-
-                //Dune
-                .add(PlanetsPlusBlocks.DUNE_STONE.get())
-                .add(PlanetsPlusBlocks.DUNE_COBBLESTONE.get())
-                .add(PlanetsPlusBlocks.POLISHED_DUNE_STONE.get())
-
-                //Eclipsa
-                .add(PlanetsPlusBlocks.ECLIPSA_STONE.get())
-                .add(PlanetsPlusBlocks.ECLIPSA_COBBLESTONE.get())
-
-                //Fierer
-                .add(PlanetsPlusBlocks.FIERER_STONE.get())
-                .add(PlanetsPlusBlocks.FIERER_COBBLESTONE.get())
-                .add(PlanetsPlusBlocks.POLISHED_FIERER_STONE.get())
-                .add(PlanetsPlusBlocks.FIERER_STONE_BRICKS.get())
-
-                //Flade
-                .add(PlanetsPlusBlocks.FLADE_STONE.get())
-                .add(PlanetsPlusBlocks.FLADE_COBBLESTONE.get())
-                .add(PlanetsPlusBlocks.POLISHED_FLADE_STONE.get())
-                .add(PlanetsPlusBlocks.FLADE_STONE_BRICKS.get())
-
-                //Galia
-                .add(PlanetsPlusBlocks.GALIA_STONE.get())
-                .add(PlanetsPlusBlocks.GALIA_COBBLESTONE.get())
-                .add(PlanetsPlusBlocks.VOXGLOMERATE.get())
-                .add(PlanetsPlusBlocks.GALIA_COAL_ORE.get())
-                .add(PlanetsPlusBlocks.GALIA_IRON_ORE.get())
-                .add(PlanetsPlusBlocks.GALIA_EMERALD_ORE.get())
-                .add(PlanetsPlusBlocks.GALIA_OSTRUM_ORE.get())
-                .add(PlanetsPlusBlocks.GALIA_DIAMOND_ORE.get())
-                .add(PlanetsPlusBlocks.POLISHED_VOXGLOMERATE.get())
-                .add(PlanetsPlusBlocks.POLISHED_GALIA_STONE.get())
-                .add(PlanetsPlusBlocks.POLISHED_GALIA_STONE.get())
+                //Europa
 
                 //Ganymede
                 .add(PlanetsPlusBlocks.GANYMEDE_STONE.get())
@@ -543,32 +614,50 @@ public class PlanetsPlusBlockTagsProvider extends BlockTagsProvider {
                 .add(PlanetsPlusBlocks.GANYMEDE_STONE_BRICKS.get())
                 .add(PlanetsPlusBlocks.GANYMEDE_HIGHLANDS_STONE_BRICKS.get())
 
-                //Io
-                .add(PlanetsPlusBlocks.IO_STONE.get())
-                .add(PlanetsPlusBlocks.IO_COBBLESTONE.get())
-                .add(PlanetsPlusBlocks.POLISHED_IO_STONE.get())
-                .add(PlanetsPlusBlocks.IO_STONE_BRICKS.get())
+                //Callisto
 
-                //Jada
-                .add(PlanetsPlusBlocks.JADA_STONE.get())
-                .add(PlanetsPlusBlocks.JADA_COBBLESTONE.get())
-                .add(PlanetsPlusBlocks.JADA_COPPER_ORE.get())
-                .add(PlanetsPlusBlocks.JADA_IRON_ORE.get())
-                .add(PlanetsPlusBlocks.JADA_GOLD_ORE.get())
-                .add(PlanetsPlusBlocks.JADA_EMERALD_ORE.get())
-                .add(PlanetsPlusBlocks.JADA_ICE_SHARD_ORE.get())
-                .add(PlanetsPlusBlocks.JADA_OSTRUM_ORE.get())
-                .add(PlanetsPlusBlocks.JADA_DIAMOND_ORE.get())
+                //Enceledus
 
-                //Mixeus
-                .add(PlanetsPlusBlocks.MIXEUS_STONE.get())
-                .add(PlanetsPlusBlocks.MIXEUS_COBBLESTONE.get())
-                .add(PlanetsPlusBlocks.POLISHED_MIXEUS_STONE.get())
-                .add(PlanetsPlusBlocks.MIXEUS_STONE_BRICKS.get())
+                //Titan
 
-                //Ringetic
-                .add(PlanetsPlusBlocks.RINGETIC_COBBLESTONE.get())
-                .add(PlanetsPlusBlocks.RINGETIC_STONE.get())
+                //Iapetus
+
+                //Pluto
+
+                //Charon
+
+                //Vulcan
+                .add(PlanetsPlusBlocks.VULCAN_STONE.get())
+                .add(PlanetsPlusBlocks.VULCAN_COBBLESTONE.get())
+                .add(PlanetsPlusBlocks.VULCAN_INFERNAL_BASALT.get())
+                .add(PlanetsPlusBlocks.POLISHED_VULCAN_STONE.get())
+                .add(PlanetsPlusBlocks.VULCAN_STONE_BRICKS.get())
+
+                //Fierer
+                .add(PlanetsPlusBlocks.FIERER_STONE.get())
+                .add(PlanetsPlusBlocks.FIERER_COBBLESTONE.get())
+                .add(PlanetsPlusBlocks.POLISHED_FIERER_STONE.get())
+                .add(PlanetsPlusBlocks.FIERER_STONE_BRICKS.get())
+
+                //Galia
+                .add(PlanetsPlusBlocks.GALIA_STONE.get())
+                .add(PlanetsPlusBlocks.GALIA_COBBLESTONE.get())
+                .add(PlanetsPlusBlocks.VOXGLOMERATE.get())
+                .add(PlanetsPlusBlocks.GALIA_COAL_ORE.get())
+                .add(PlanetsPlusBlocks.GALIA_IRON_ORE.get())
+                .add(PlanetsPlusBlocks.GALIA_EMERALD_ORE.get())
+                .add(PlanetsPlusBlocks.GALIA_OSTRUM_ORE.get())
+                .add(PlanetsPlusBlocks.GALIA_DIAMOND_ORE.get())
+                .add(PlanetsPlusBlocks.POLISHED_VOXGLOMERATE.get())
+                .add(PlanetsPlusBlocks.POLISHED_GALIA_STONE.get())
+                .add(PlanetsPlusBlocks.POLISHED_GALIA_STONE.get())
+
+                //Dytiona
+                .add(PlanetsPlusBlocks.DYTIONA_STONE.get())
+                .add(PlanetsPlusBlocks.DYTIONA_COBBLESTONE.get())
+                .add(PlanetsPlusBlocks.POLISHED_DYTIONA_STONE.get())
+                .add(PlanetsPlusBlocks.DYTIONA_STONE_BRICKS.get())
+
 
                 //Soulfer
                 .add(PlanetsPlusBlocks.SOULFER_STONE.get())
@@ -580,13 +669,42 @@ public class PlanetsPlusBlockTagsProvider extends BlockTagsProvider {
                 .add(PlanetsPlusBlocks.POLISHED_SOULFER_STONE.get())
                 .add(PlanetsPlusBlocks.SOULFER_STONE_BRICKS.get())
 
-                //Vulcan
-                .add(PlanetsPlusBlocks.VULCAN_STONE.get())
-                .add(PlanetsPlusBlocks.VULCAN_COBBLESTONE.get())
-                .add(PlanetsPlusBlocks.VULCAN_INFERNAL_BASALT.get())
-                .add(PlanetsPlusBlocks.POLISHED_VULCAN_STONE.get())
-                .add(PlanetsPlusBlocks.VULCAN_STONE_BRICKS.get());
+                //Flade
+                .add(PlanetsPlusBlocks.FLADE_STONE.get())
+                .add(PlanetsPlusBlocks.FLADE_COBBLESTONE.get())
+                .add(PlanetsPlusBlocks.POLISHED_FLADE_STONE.get())
+                .add(PlanetsPlusBlocks.FLADE_STONE_BRICKS.get())
 
+                //Mixeus
+                .add(PlanetsPlusBlocks.MIXEUS_STONE.get())
+                .add(PlanetsPlusBlocks.MIXEUS_COBBLESTONE.get())
+                .add(PlanetsPlusBlocks.POLISHED_MIXEUS_STONE.get())
+                .add(PlanetsPlusBlocks.MIXEUS_STONE_BRICKS.get())
+
+                //Dune
+                .add(PlanetsPlusBlocks.DUNE_STONE.get())
+                .add(PlanetsPlusBlocks.DUNE_COBBLESTONE.get())
+                .add(PlanetsPlusBlocks.POLISHED_DUNE_STONE.get())
+
+                //Dread
+                .add(PlanetsPlusBlocks.DREAD_STONE.get())
+                .add(PlanetsPlusBlocks.DREAD_COBBLESTONE.get())
+                .add(PlanetsPlusBlocks.DREAD_DRIPSTONE.get())
+                .add(PlanetsPlusBlocks.POLISHED_DREAD_STONE.get())
+                .add(PlanetsPlusBlocks.DREAD_STONE_BRICKS.get())
+
+                //Eclipsa
+                .add(PlanetsPlusBlocks.ECLIPSA_STONE.get())
+                .add(PlanetsPlusBlocks.ECLIPSA_COBBLESTONE.get())
+
+                //Atmas
+                .add(PlanetsPlusBlocks.ATMAS_STONE.get())
+                .add(PlanetsPlusBlocks.ATMAS_COBBLESTONE.get())
+
+                //Ringetic
+
+                .add(PlanetsPlusBlocks.RINGETIC_COBBLESTONE.get())
+                .add(PlanetsPlusBlocks.RINGETIC_STONE.get());
         /*
         Miscellaneous Tags
          */

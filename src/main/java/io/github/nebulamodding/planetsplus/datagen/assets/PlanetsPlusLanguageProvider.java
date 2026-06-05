@@ -50,17 +50,12 @@ public class PlanetsPlusLanguageProvider extends LanguageProvider {
 
         // Block Tags
         add(PlanetsPlusTags.PlanetsPlusBlockTags.COBBLESTONES_VULCAN_STONE, "Vulcan Stone Cobblestones");
-        add(PlanetsPlusTags.PlanetsPlusBlockTags.ORE_BEARING_GROUND_VULCAN_STONE, "Vulcan Stone Ore Bearing Ground");
-        add(PlanetsPlusTags.PlanetsPlusBlockTags.ORES_IN_GROUND_VULCAN_STONE, "Vulcan Stone Ores In Ground");
         add(PlanetsPlusTags.PlanetsPlusBlockTags.ORES_ROSINRITE, "Rosinrite Ores");
         add(PlanetsPlusTags.PlanetsPlusBlockTags.STORAGE_BLOCKS_ROSINRITE, "Rosinrite Storage Blocks");
         add(PlanetsPlusTags.PlanetsPlusBlockTags.STORAGE_BLOCKS_RAW_ROSINRITE, "Raw Rosinrite Storage Blocks");
 
         // Block Item Tags
         add(PlanetsPlusTags.PlanetsPlusItemTags.COBBLESTONES_VULCAN_STONE, "Vulcan Stone Cobblestones");
-        add(PlanetsPlusTags.PlanetsPlusItemTags.ORE_BEARING_GROUND_VULCAN_STONE, "Vulcan Stone Ore Bearing Ground");
-        add(PlanetsPlusTags.PlanetsPlusItemTags.ORES_IN_GROUND_VULCAN_STONE, "Vulcan Stone Ores In Ground");
-        add(PlanetsPlusTags.PlanetsPlusItemTags.ORES_ROSINRITE, "Rosinrite Ores");
         add(PlanetsPlusTags.PlanetsPlusItemTags.STORAGE_BLOCKS_ROSINRITE, "Rosinrite Storage Blocks");
         add(PlanetsPlusTags.PlanetsPlusItemTags.STORAGE_BLOCKS_RAW_ROSINRITE, "Raw Rosinrite Storage Blocks");
 

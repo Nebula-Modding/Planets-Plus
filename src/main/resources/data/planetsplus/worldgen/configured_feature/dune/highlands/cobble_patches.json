@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "radius": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 3,
+      "min_inclusive": 1
+    },
+    "state": {
+      "Name": "planetsplus:dune_cobblestone",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "target": {
+      "Name": "planetsplus:dune_sand"
+    }
+  }
+}

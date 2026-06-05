@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+  "minecraft:snow_block",
+  "minecraft:packed_ice",
+  "planetsplus:glacies_stone",
+  "minecraft:cyan_wool",
+  "minecraft:blue_wool",
+  "minecraft:blue_ice"
+  ]
+}

@@ -18,7 +18,8 @@ public class PlanetsPlusItems {
 
     private static DeferredItem<ShovelItem> registerShovelItem(String id, Tier tier, float attackDamage, float attackSpeed) {
         return ITEMS.register(id, () -> new ShovelItem(tier, new Item.Properties()
-                .attributes(ShovelItem.createAttributes(tier, attackDamage, attackSpeed))
+                .attributes(ShovelItem.createAttributes(tier, attackDamage, attackSpeed)
+                )
         ));
     }
 

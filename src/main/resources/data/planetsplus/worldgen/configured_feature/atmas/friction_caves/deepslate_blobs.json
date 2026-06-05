@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "radius": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 9,
+      "min_inclusive": 3
+    },
+    "state": {
+      "Name": "minecraft:cobbled_deepslate"
+    },
+    "target": {
+      "Name": "minecraft:smooth_basalt"
+    }
+  }
+}

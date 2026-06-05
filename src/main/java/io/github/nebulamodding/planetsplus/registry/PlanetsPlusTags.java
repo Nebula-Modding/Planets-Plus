@@ -35,12 +35,6 @@ public class PlanetsPlusTags {
                 // Cobblestones
                 COBBLESTONES_VULCAN_STONE = commonBlockTag("cobblestones/vulcan_stone"),
 
-                // Ore Bearing Ground
-                ORE_BEARING_GROUND_VULCAN_STONE = commonBlockTag("ore_bearing_ground/vulcan_stone"),
-
-                // Ores In Ground
-                ORES_IN_GROUND_VULCAN_STONE = commonBlockTag("ores_in_ground/vulcan_stone"),
-
                 // Ore Blocks
                 ORES_ROSINRITE = commonBlockTag("ores/rosinrite"),
 
@@ -65,33 +59,65 @@ public class PlanetsPlusTags {
                 VULCAN_CARVER_REPLACEABLES = blockTag("vulcan_carver_replaceables"),
                 UNITY_CARVER_REPLACEABLES = blockTag("unity_carver_replaceables"),
 
-                // Ore Replaceables
-                VULCAN_STONE_ORE_REPLACEABLES = blockTag("vulcan_stone_ore_replaceables"),
-
                 // World Gen
 
+                // Ore Replaceables
+                //Worldgen
+                //Solar System
+                        JADA_ORE_REPLACEABLES = blockTag("jada_ore_replaceables"),
+                        DIATER_ORE_REPLACEABLES = blockTag("diater_ore_replaceables"),
+                        IO_ORE_REPLACEABLES = blockTag("io_ore_replaceables"),
+                        EUROPA_ORE_REPLACEABLES = blockTag("europa_ore_replaceables"),
+                        GANYMEDE_ORE_REPLACEABLES = blockTag("ganymede_ore_replaceables"),
+                        CALLISTO_ORE_REPLACEABLES = blockTag("callisto_ore_replaceables"),
+                        ENCELEDUS_ORE_REPLACEABLES = blockTag("enceledus_ore_replaceables"),
+                        TITAN_ORE_REPLACEABLES = blockTag("titan_ore_replaceables"),
+                        IAPETUS_ORE_REPLACEABLES = blockTag("iapedus_ore_replaceables"),
+                        PLUTO_ORE_REPLACEABLES = blockTag("pluto_ore_replaceables"),
+                        CHARON_ORE_REPLACEABLES = blockTag("charon_ore_replaceables"),
+
+                // Kelper Centaiur
+                        VULCAN_ORE_REPLACEABLES = blockTag("vulcan_ore_replaceables"),
+                        FIERER_ORE_REPLACEABLES = blockTag("fierer_ore_replaceables"),
+                        GALIA_ORE_REPLACEABLES = blockTag("galia_stone_ore_replaceables"),
+                        DYTIONA_ORE_REPLACEABLES = blockTag("dytiona_stone_ore_replaceables"),
+
+                // Syris
+                        SOULFER_ORE_REPLACEABLES = blockTag("soulfer_ore_replaceables"),
+                        FLADE_ORE_REPLACEABLES = blockTag("flade_ore_replaceables"),
+                        MIXEUS_ORE_REPLACEABLES = blockTag("mixeus_ore_replaceables"),
+                        DUNE_ORE_REPLACEABLES = blockTag("dune_ore_replaceables"),
+                        DREAD_ORE_REPLACEABLES = blockTag("dread_ore_replaceables"),
+                        GLACIES_ORE_REPLACEABLES = blockTag("glacies_ore_replaceables"),
+                        VOLTIC_ORE_REPLACEABLES = blockTag("voltic_ore_replaceables"),
+                        VONIC_ORE_REPLACEABLES = blockTag("vonic_ore_replaceables"),
+                        REVEDA_ORE_REPLACEABLES = blockTag("reveda_ore_replaceables"),
+                        OBRINA_ORE_REPLACEABLES = blockTag("obrina_ore_replaceables"),
+                        BAYDIN_ORE_REPLACEABLES = blockTag("baydin_ore_replaceables"),
+                        EVEDVA_ORE_REPLACEABLES = blockTag("evedva_ore_replaceables"),
+                        ECLIPSA_ORE_REPLACEABLES = blockTag("eclipsa_ore_replaceables"),
+                        ATMAS_ORE_REPLACEABLES = blockTag("atmas_ore_replaceables"),
+                        RINGETIC_ORE_REPLACEABLES = blockTag("ringetic_ore_replaceables"),
+
+
                 SPIKE_REPLACEABLES = blockTag("worldgen/spike_replaceables");
+
 
 
     }
     public static class PlanetsPlusItemTags {
         // Block Items
         public static final TagKey<Item>
+                //
+
                 // Cobblestones
                 COBBLESTONES_VULCAN_STONE = commonItemTag("cobblestones/vulcan_stone"),
 
-                // Ore Bearing Ground
-                ORE_BEARING_GROUND_VULCAN_STONE = commonItemTag("ore_bearing_ground/vulcan_stone"),
-
-                // Ores In Ground
-                ORES_IN_GROUND_VULCAN_STONE = commonItemTag("ores_in_ground/vulcan_stone"),
-
-                // Ore Blocks
-                ORES_ROSINRITE = commonItemTag("ores/rosinrite"),
 
                 // Storage Blocks
                 STORAGE_BLOCKS_ROSINRITE = commonItemTag("storage_blocks/rosinrite"),
                 STORAGE_BLOCKS_RAW_ROSINRITE = commonItemTag("storage_blocks/raw_rosinrite");
+
         // Items
         public static final TagKey<Item>
                 // Adds a plates tag because neoforge doesn't have a common tag for it by default

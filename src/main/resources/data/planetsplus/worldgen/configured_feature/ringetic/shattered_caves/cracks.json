@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:delta_feature",
+  "config": {
+    "contents": {
+      "Name": "minecraft:air"
+    },
+    "rim": {
+      "Name": "planetsplus:ringetic_sand"
+    },
+    "rim_size": {
+      "type": "minecraft:uniform",
+        "max_inclusive": 7,
+        "min_inclusive": 4
+    },
+    "size": {
+      "type": "minecraft:uniform",
+        "max_inclusive": 5,
+        "min_inclusive": 3
+    }
+  }
+}

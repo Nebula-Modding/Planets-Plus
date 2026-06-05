@@ -1,12 +1,15 @@
 package io.github.nebulamodding.planetsplus.datagen.data.tags;
 
 import io.github.nebulamodding.planetsplus.PlanetsPlus;
+import io.github.nebulamodding.planetsplus.registry.PlanetsPlusBlocks;
+import io.github.nebulamodding.planetsplus.registry.PlanetsPlusItems;
 import io.github.nebulamodding.planetsplus.registry.PlanetsPlusTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -54,14 +57,9 @@ public class PlanetsPlusItemTagsProvider extends ItemTagsProvider {
         copy(BlockTags.EMERALD_ORES, ItemTags.EMERALD_ORES);
         copy(BlockTags.LAPIS_ORES, ItemTags.LAPIS_ORES);
         copy(BlockTags.DIAMOND_ORES, ItemTags.DIAMOND_ORES);
-        copy(PlanetsPlusTags.PlanetsPlusBlockTags.ORES_ROSINRITE, PlanetsPlusTags.PlanetsPlusItemTags.ORES_ROSINRITE);
         copy(Tags.Blocks.ORE_RATES_DENSE, Tags.Items.ORE_RATES_SINGULAR);
         copy(Tags.Blocks.ORE_RATES_SINGULAR, Tags.Items.ORE_RATES_SINGULAR);
         copy(Tags.Blocks.ORE_RATES_SPARSE, Tags.Items.ORE_RATES_SPARSE);
-        copy(PlanetsPlusTags.PlanetsPlusBlockTags.ORE_BEARING_GROUND_VULCAN_STONE, PlanetsPlusTags.PlanetsPlusItemTags.ORE_BEARING_GROUND_VULCAN_STONE);
-        copy(PlanetsPlusTags.PlanetsPlusBlockTags.ORES_IN_GROUND_VULCAN_STONE, PlanetsPlusTags.PlanetsPlusItemTags.ORES_IN_GROUND_VULCAN_STONE);
-        tag(ItemTags.BEACON_PAYMENT_ITEMS)
-                .addTag(PlanetsPlusTags.PlanetsPlusItemTags.INGOTS_ROSINRITE)
         ;
         tag(ItemTags.TRIM_MATERIALS)
                 .addTag(PlanetsPlusTags.PlanetsPlusItemTags.INGOTS_ROSINRITE)
@@ -98,13 +96,12 @@ public class PlanetsPlusItemTagsProvider extends ItemTagsProvider {
 
         copy(Tags.Blocks.STONES, Tags.Items.STONES);
         copy(Tags.Blocks.COBBLESTONES, Tags.Items.COBBLESTONES);
+
         copy(PlanetsPlusTags.PlanetsPlusBlockTags.COBBLESTONES_VULCAN_STONE, PlanetsPlusTags.PlanetsPlusItemTags.COBBLESTONES_VULCAN_STONE);
-        tag(ItemTags.STONE_CRAFTING_MATERIALS)
+        tag(ItemTags.STONE_CRAFTING_MATERIALS);
+
                 // Add cobblestones here
-        ;
-        tag(ItemTags.STONE_TOOL_MATERIALS)
-                // Add cobblestones here
-        ;
+        tag(ItemTags.STONE_TOOL_MATERIALS);
 
         /*
         Storage Block Tags

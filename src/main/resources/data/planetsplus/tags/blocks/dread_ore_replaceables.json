@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+	"planetsplus:dread_stone",
+	"minecraft:dripstone_block",
+	"minecraft:granite"
+  ]
+}

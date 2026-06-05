@@ -1,13 +1,10 @@
-// 1.21.1	2025-06-29T11:40:52.2596773	Tags for minecraft:item mod id planetsplus
+// 1.21.1	2026-06-04T18:29:23.355576	Tags for minecraft:item mod id planetsplus
 f3520e271aa0e9da02cd3cb5e8d09fbea6267b3f data/c/tags/item/cobblestones.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/cobblestones/vulcan_stone.json
 777d44ca34bb3e06ad5070dbf179a2383a4bd2bf data/c/tags/item/ingots.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/ingots/rosinrite.json
 5128d29f0931d830c967e5e2442c3171cca0e2c9 data/c/tags/item/nuggets.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/nuggets/rosinrite.json
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/ores/rosinrite.json
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/ores_in_ground/vulcan_stone.json
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/ore_bearing_ground/vulcan_stone.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/ore_rates/singular.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/ore_rates/sparse.json
 2ce527d957efdf645fe5f6a18e43de68dc548ad0 data/c/tags/item/plates.json
@@ -20,7 +17,6 @@ d8c5a0736347afc6e018d3f893cddcc5227da0b0 data/c/tags/item/rods.json
 833379c8b0d7a7f90e09d2c17171f618c73dc094 data/c/tags/item/storage_blocks.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/storage_blocks/raw_rosinrite.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/c/tags/item/storage_blocks/rosinrite.json
-777d44ca34bb3e06ad5070dbf179a2383a4bd2bf data/minecraft/tags/item/beacon_payment_items.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/item/buttons.json
 dbb70ca7690a08729a7d2e527c1f7e18b1832738 data/minecraft/tags/item/coal_ores.json
 4ef854f12f351666fca02c76db65336bf41bc80b data/minecraft/tags/item/copper_ores.json

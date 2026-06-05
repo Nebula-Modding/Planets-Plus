@@ -1,0 +1,12 @@
+{
+  "feature": "planetsplus:vulcan/molten_plains/lava_puddles",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 50
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
