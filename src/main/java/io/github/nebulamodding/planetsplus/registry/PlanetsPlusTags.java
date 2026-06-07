@@ -25,6 +25,8 @@ public class PlanetsPlusTags {
         // Blocks
         public static final TagKey<Block>
 
+                // This is where you declare a tag to exist then you go to the TagsProviders to add stuff to them
+
                 /*
                 Common Tags
                  */
@@ -50,14 +52,6 @@ public class PlanetsPlusTags {
 
                 // Needs Tools
                 NEEDS_ROSINRITE_TOOL = blockTag("needs_rosinrite_tool"),
-
-                // Base Stones
-                BASE_STONE_VULCAN = blockTag("base_stone_vulcan"),
-                BASE_STONE_UNITY = blockTag("base_stone_unity"),
-
-                // Carver Replacables
-                VULCAN_CARVER_REPLACEABLES = blockTag("vulcan_carver_replaceables"),
-                UNITY_CARVER_REPLACEABLES = blockTag("unity_carver_replaceables"),
 
                 // World Gen
 

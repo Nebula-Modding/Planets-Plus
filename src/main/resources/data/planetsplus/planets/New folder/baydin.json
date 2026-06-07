@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:baydin",
+  "gravity": 1.33,
+  "orbit": "planetsplus:baydin_orbit",
+  "oxygen": false,
+  "solar_power": 10,
+  "solar_system": "planetsplus:kepler_10352",
+  "temperature": -156,
+  "tier": 4
+}

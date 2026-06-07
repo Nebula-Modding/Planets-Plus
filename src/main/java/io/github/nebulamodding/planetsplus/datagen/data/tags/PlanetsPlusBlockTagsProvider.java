@@ -385,9 +385,9 @@ public class PlanetsPlusBlockTagsProvider extends BlockTagsProvider {
 
 
         // Base Stone Tags
-        tag(PlanetsPlusTags.PlanetsPlusBlockTags.BASE_STONE_VULCAN);
 
-        tag(PlanetsPlusTags.PlanetsPlusBlockTags.BASE_STONE_UNITY);
+
+
 
         /*
         Storage Block Tags
@@ -441,20 +441,6 @@ public class PlanetsPlusBlockTagsProvider extends BlockTagsProvider {
         /*
         Carver Replaceable Tags
          */
-
-        tag(PlanetsPlusTags.PlanetsPlusBlockTags.UNITY_CARVER_REPLACEABLES)
-                .addTag(PlanetsPlusTags.PlanetsPlusBlockTags.BASE_STONE_UNITY)
-                .addTag(BlockTags.DIRT)
-                .addTag(BlockTags.SAND)
-                .addTag(BlockTags.COPPER_ORES)
-                .addTag(BlockTags.IRON_ORES)
-                .addTag(BlockTags.SNOW)
-                .add(Blocks.PACKED_ICE)
-                .add(Blocks.RAW_COPPER_BLOCK)
-                .add(Blocks.RAW_IRON_BLOCK)
-                .add(Blocks.WATER);
-
-
 
         /*
         Worldgen Tags

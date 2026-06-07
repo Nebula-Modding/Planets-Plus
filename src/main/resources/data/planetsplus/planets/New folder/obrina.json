@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:obrina",
+  "gravity": 2.37,
+  "orbit": "planetsplus:obrina_orbit",
+  "oxygen": false,
+  "solar_power": 10,
+  "solar_system": "planetsplus:kepler_10352",
+  "temperature": -104,
+  "tier": 4
+}

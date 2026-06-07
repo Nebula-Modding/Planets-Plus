@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:voltic",
+  "gravity": 3.65,
+  "orbit": "planetsplus:voltic_orbit",
+  "oxygen": false,
+  "solar_power": 11,
+  "solar_system": "planetsplus:kepler_10352",
+  "temperature": -67,
+  "tier": 4
+}

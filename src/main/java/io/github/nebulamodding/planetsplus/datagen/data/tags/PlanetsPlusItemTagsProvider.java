@@ -1,6 +1,7 @@
 package io.github.nebulamodding.planetsplus.datagen.data.tags;
 
-import io.github.nebulamodding.planetsplus.PlanetsPlus;
+import
+io.github.nebulamodding.planetsplus.PlanetsPlus;
 import io.github.nebulamodding.planetsplus.registry.PlanetsPlusBlocks;
 import io.github.nebulamodding.planetsplus.registry.PlanetsPlusItems;
 import io.github.nebulamodding.planetsplus.registry.PlanetsPlusTags;
@@ -16,7 +17,6 @@ import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.concurrent.CompletableFuture;
-
 public class PlanetsPlusItemTagsProvider extends ItemTagsProvider {
     public PlanetsPlusItemTagsProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, BlockTagsProvider provider, ExistingFileHelper existingFileHelper) {
         super(output, lookupProvider, provider.contentsGetter(), PlanetsPlus.MOD_ID, existingFileHelper);

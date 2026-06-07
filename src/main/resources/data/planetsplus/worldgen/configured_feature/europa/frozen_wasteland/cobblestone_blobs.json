@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "radius": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 5,
+      "min_inclusive": 3
+    },
+    "state": {
+      "Name": "ad_astra:glacio_cobblestone"
+    },
+    "target": {
+      "Name": "ad_astra:glacio_stone"
+    }
+  }
+}
