@@ -19,8 +19,13 @@ public class PlanetsPlusBlocks {
     Sol
      */
 
-    // Jada Blocks
+    // Common/Earth blocks
     public static final DeferredBlock<Block>
+            SILVER_ORE = register("silver_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
+            LEAD_ORE = register("lead_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
+
+
+    // Jada Blocks
             JADA_SAND = register("jada_sand", () -> new ColoredFallingBlock(new ColorRGBA(0x6b5868), sandProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
             JADA_STONE = register("jada_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
             JADA_COBBLESTONE = register("jada_cobblestone", () -> new Block(cobblestoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
@@ -33,7 +38,7 @@ public class PlanetsPlusBlocks {
             JADA_DIAMOND_ORE = register("jada_diamond_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
             JADA_OSTRUM_ORE = register("jada_ostrum_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
             JADA_ICE_SHARD_ORE = register("jada_ice_shard_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
-            JADA_COPPER_ORE = register("jada_copper_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
+            JADA_ROSINRITE_ORE = register("jada_rosinrite_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))), JADA_COPPER_ORE = register("jada_copper_ore", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BLUE))),
 
             //Building blocks
 
@@ -113,7 +118,7 @@ public class PlanetsPlusBlocks {
 
     // Charon Blocks
     CHARON_HARDENED_ICE = register("charon_hardened_ice", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_ORANGE))),
-    //CHARON_COBBLED_HARDENED_ICE = register("charon_cobbled_hardened_ice", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
+    CHARON_COBBLED_ICE = register("charon_cobbled_ice", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY))),
 
     /*
     Kepler Centauri
@@ -123,7 +128,10 @@ public class PlanetsPlusBlocks {
             VULCAN_STONE = register("vulcan_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_RED))),
             VULCAN_COBBLESTONE = register("vulcan_cobblestone", () -> new Block(cobblestoneProperties().mapColor(MapColor.COLOR_RED))),
             VULCAN_INFERNAL_BASALT = register("vulcan_infernal_basalt", () -> new MagmaBlock(stoneProperties().sound(SoundType.BASALT).mapColor(MapColor.COLOR_RED))),
-
+            VULCAN_CHARRED_STONE = register("vulcan_charred_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_RED))),
+            VULCAN_CHARRED_COBBLESTONE = register("vulcan_charred_cobblestone", () -> new Block(cobblestoneProperties().mapColor(MapColor.COLOR_RED))),
+            VULCAN_BURNT_STONE = register("vulcan_burnt_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_RED))),
+            VULCAN_BURNT_COBBLESTONE = register("vulcan_burnt_cobblestone", () -> new Block(cobblestoneProperties().mapColor(MapColor.COLOR_RED))),
             // Building blocks
             VULCAN_STONE_BRICKS = register("vulcan_stone_bricks", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_RED))),
             POLISHED_VULCAN_STONE = register("polished_vulcan_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_RED))),
@@ -148,6 +156,8 @@ public class PlanetsPlusBlocks {
             GALIA_STONE = register("galia_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PINK))),
             GALIA_COBBLESTONE = register("galia_cobblestone", () -> new Block(cobblestoneProperties().mapColor(MapColor.COLOR_PINK))),
             VOXGLOMERATE = register("voxglomerate", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PURPLE))),
+            GALIA_IMPACT_MUSHROOM = register("galia_impact_mushroom", () -> new Block(mushroomProperties().mapColor(MapColor.COLOR_PINK))),
+            GALIA_IMPACT_MUSHROOM_STEM = register("galia_impact_mushroom_stem", () -> new Block(mushroomProperties().mapColor(MapColor.COLOR_PINK))),
 
             //Building blocks
             GALIA_STONE_BRICKS = register("galia_stone_bricks", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PINK))),
@@ -297,8 +307,15 @@ public class PlanetsPlusBlocks {
     /*
     Generic blocks
      */
-
     public static final DeferredBlock<Block>
+    // Ore metal plates
+
+    ROSINRITE_PLATING = register("rosinrite_plating", () -> new Block(rosinriteplatingProperties().mapColor(MapColor.TERRACOTTA_MAGENTA))),
+    ROSINRITE_PILLAR = register("rosinrite_pillar", () -> new RotatedPillarBlock(rosinriteplatingProperties().mapColor(MapColor.TERRACOTTA_MAGENTA))),
+    ROSINRITE_PLATEBLOCK = register("rosinrite_plateblock", () -> new Block(rosinriteplatingProperties().mapColor(MapColor.TERRACOTTA_MAGENTA))),
+    ROSINRITE_PANEL = register("rosinrite_panel", () -> new Block(rosinriteplatingProperties().mapColor(MapColor.TERRACOTTA_MAGENTA))),
+    //Common stuff
+
     BASALT_SAND = register("basalt_sand", () -> new ColoredFallingBlock(new ColorRGBA(0x605F5F),sandProperties().mapColor(MapColor.STONE))),
     SULFUR = register("sulfur", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_YELLOW).sound(SoundType.BASALT))),
     SOUL_STONE = register("soul_stone", () -> new Block(stoneProperties().mapColor(MapColor.TERRACOTTA_BROWN))),
@@ -309,7 +326,6 @@ public class PlanetsPlusBlocks {
      */
 
     // How the fuck do you add fluids / liquids. You cant - carrot
-
     private static BlockBehaviour.Properties iceProperties() {
         return BlockBehaviour.Properties.ofFullCopy(Blocks.ICE);
     }
@@ -334,6 +350,9 @@ public class PlanetsPlusBlocks {
     }
     private static BlockBehaviour.Properties farmlandProperties() {
         return BlockBehaviour.Properties.ofFullCopy(Blocks.FARMLAND);
+    }
+    private static BlockBehaviour.Properties mushroomProperties() {
+        return BlockBehaviour.Properties.ofFullCopy(Blocks.RED_MUSHROOM_BLOCK);
     }
     private static BlockBehaviour.Properties stoneProperties() {
         return BlockBehaviour.Properties.ofFullCopy(Blocks.STONE);
@@ -423,6 +442,15 @@ public class PlanetsPlusBlocks {
                 .requiresCorrectToolForDrops()
                 .strength(5, 16)
                 .sound(SoundType.NETHERITE_BLOCK);
+    }
+    // Metal plating blocks
+    private static BlockBehaviour.Properties rosinriteplatingProperties() {
+        return BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_ORANGE)
+                .instrument(NoteBlockInstrument.BIT)
+                .requiresCorrectToolForDrops()
+                .strength(1.5f, 12)
+                .sound(SoundType.METAL);
     }
     public static <T extends Block> DeferredBlock<T> register(String id, Supplier<T> block) {
         var registeredBlock = BLOCKS.register(id, block);

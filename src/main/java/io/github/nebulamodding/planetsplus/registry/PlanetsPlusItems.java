@@ -2,15 +2,38 @@
 package io.github.nebulamodding.planetsplus.registry;
 
 import io.github.nebulamodding.planetsplus.PlanetsPlus;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.neoforged.neoforge.common.SimpleTier;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.function.Supplier;
 
 public class PlanetsPlusItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PlanetsPlus.MOD_ID);
 
     public static final DeferredItem<Item>
-            DESH_HANDLE = ITEMS.register("desh_handle", () -> new Item(new Item.Properties()));
+    DESH_HANDLE = ITEMS.register("desh_handle", () -> new Item(new Item.Properties())),
+
+    //Ores
+    RAW_ROSINRITE = ITEMS.register("raw_rosinrite", () -> new Item(new Item.Properties())),
+    ROSINRITE_INGOT = ITEMS.register("rosinrite_ingot", () -> new Item(new Item.Properties())),
+    ROSINRITE_NUGGET = ITEMS.register("rosinrite_nugget", () -> new Item(new Item.Properties()));
+    // Weapons and tools
+
+    public static final Supplier<SwordItem> ROSINRITE_SWORD = ITEMS.register("rosinrite_sword", ()-> new SwordItem(
+            PlanetsPlusTiers.ROSINRITE,
+            new Item.Properties().attributes(
+                    SwordItem.createAttributes(
+                            PlanetsPlusTiers.ROSINRITE,
+                            0,
+                            -2.6f
+                    )
+
+            )
+    ));
 
     /*
     Helpers
