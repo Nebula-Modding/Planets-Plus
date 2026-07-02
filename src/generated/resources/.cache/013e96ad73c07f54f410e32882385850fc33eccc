@@ -1,6 +1,7 @@
-// 1.21.1	2026-06-09T18:11:40.7269369	Item Models: planetsplus
+// 1.21.1	2026-06-22T21:52:07.0793235	Item Models: planetsplus
 f78bfa9a9a1ccf910f274e291268ef6b3d485a93 assets/planetsplus/models/item/desh_handle.json
 49854ee55d0fbed1382e550d3b139403540f1282 assets/planetsplus/models/item/raw_rosinrite.json
 95ff63dea4c0496de57f3760e1d8845a9057d21e assets/planetsplus/models/item/rosinrite_ingot.json
 52adae390d4eaaf440b6568d26f425f76c6340d9 assets/planetsplus/models/item/rosinrite_nugget.json
-03d1f3c4910190cf2823ed8f1424c245d1864409 assets/planetsplus/models/item/rosinrite_sword.json
+7e61fe5768e07cbcbd538a1e84ae4724913a0852 assets/planetsplus/models/item/rosinrite_pickaxe.json
+9b43523a32c233139a9d21831e20baebaf25fcba assets/planetsplus/models/item/rosinrite_sword.json

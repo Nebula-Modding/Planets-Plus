@@ -30,6 +30,8 @@ public class PlanetsPlusItemModelProvider extends ItemModelProvider {
         final List<DeferredHolder<Item, ? extends Item>> excludedItems = new ArrayList<>();
         // Items excluded from having a model automatically provided
         excludedItems.add(PlanetsPlusItems.DESH_HANDLE);
+        excludedItems.add((DeferredHolder<Item, ? extends Item>) PlanetsPlusItems.ROSINRITE_SWORD);
+        excludedItems.add((DeferredHolder<Item, ? extends Item>) PlanetsPlusItems.ROSINRITE_PICKAXE);
         //excludedItems.add(PlanetsPlusLiquids.LIQUID_SULFUR_BUCKET);
 
         /*
@@ -37,7 +39,8 @@ public class PlanetsPlusItemModelProvider extends ItemModelProvider {
          */
 
         itemModel(PlanetsPlusItems.DESH_HANDLE, HANDHELD);
-        //itemModel(PlanetsPlusLiquids.LIQUID_SULFUR_BUCKET, HANDHELD);
+        itemModel((DeferredHolder<?, ?>) PlanetsPlusItems.ROSINRITE_SWORD, HANDHELD);
+        itemModel((DeferredHolder<?, ?>) PlanetsPlusItems.ROSINRITE_PICKAXE, HANDHELD);
 
         /*
         Manual Block Item Models

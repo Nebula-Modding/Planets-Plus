@@ -34,7 +34,16 @@ public class PlanetsPlusItems {
 
             )
     ));
-
+    public static final Supplier<PickaxeItem> ROSINRITE_PICKAXE = ITEMS.register("rosinrite_pickaxe", () -> new PickaxeItem(
+            PlanetsPlusTiers.ROSINRITE,
+            new Item.Properties().attributes(
+                    PickaxeItem.createAttributes(
+                            PlanetsPlusTiers.ROSINRITE,
+                            -2,
+                            -3f
+                    )
+            )
+    ));
     /*
     Helpers
      */

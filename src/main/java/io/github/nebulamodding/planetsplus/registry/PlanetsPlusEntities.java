@@ -7,4 +7,6 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class PlanetsPlusEntities {
     public static final DeferredRegister<EntityType<?>> ENTITIES = DeferredRegister.create(Registries.ENTITY_TYPE, PlanetsPlus.MOD_ID);
+
+
 }

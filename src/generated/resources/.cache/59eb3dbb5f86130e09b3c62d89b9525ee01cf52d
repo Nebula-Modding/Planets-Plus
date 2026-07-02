@@ -1,4 +1,4 @@
-// 1.21.1	2026-06-09T18:11:40.725936	Loot Tables
+// 1.21.1	2026-06-22T21:44:32.7630334	Loot Tables
 e1c3443bc6560a78a504f2e5c9aaa3348d372e36 data/planetsplus/loot_table/blocks/atmas_cobblestone.json
 6be6dda4fdc8fb15736f3f0da805f897f57acf1b data/planetsplus/loot_table/blocks/atmas_stone.json
 5d41c5d2c3c728fdd74a9bd0b0dae9bc71c87a39 data/planetsplus/loot_table/blocks/basalt_sand.json
@@ -43,6 +43,7 @@ d97875c68aa28a0288e78734b0ae179ad2c080ca data/planetsplus/loot_table/blocks/gali
 960291e434a62d2aa757f1b77ac77340a3df4ac4 data/planetsplus/loot_table/blocks/galia_emerald_ore.json
 78495e46f803205867da4e320442441dbfde34ce data/planetsplus/loot_table/blocks/galia_impact_mushroom.json
 d0f9bc5a8f1d5c0082c58c3c59be560f86240672 data/planetsplus/loot_table/blocks/galia_impact_mushroom_stem.json
+9b1e9c7058b22e14fc347b92e7718a1104c15010 data/planetsplus/loot_table/blocks/galia_impact_planks.json
 8fcf552a34d3df0a51d89c10e400978715393312 data/planetsplus/loot_table/blocks/galia_iron_ore.json
 f5ab29fdbf95b33174eefa13257419907eed6b52 data/planetsplus/loot_table/blocks/galia_ostrum_ore.json
 565e41d199dbf1a84323015f4446d8b4be6e47f4 data/planetsplus/loot_table/blocks/galia_sand.json

@@ -13,7 +13,7 @@
   "infiniburn": "#minecraft:infiniburn_overworld",
   "min_y": -64,
   "height": 384,
-  "effects": "minecraft:overworld",
+  "effects": "planetsplus:europa",
   "monster_spawn_block_light_limit": 1,
   "monster_spawn_light_level": {
     "type": "minecraft:uniform",

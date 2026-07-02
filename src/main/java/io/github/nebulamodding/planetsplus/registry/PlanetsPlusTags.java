@@ -70,7 +70,7 @@ public class PlanetsPlusTags {
                         PLUTO_ORE_REPLACEABLES = blockTag("pluto_ore_replaceables"),
                         CHARON_ORE_REPLACEABLES = blockTag("charon_ore_replaceables"),
 
-                // Kelper Centaiur
+                // Kepler Centauri
                         VULCAN_ORE_REPLACEABLES = blockTag("vulcan_ore_replaceables"),
                         FIERER_ORE_REPLACEABLES = blockTag("fierer_ore_replaceables"),
                         GALIA_ORE_REPLACEABLES = blockTag("galia_stone_ore_replaceables"),

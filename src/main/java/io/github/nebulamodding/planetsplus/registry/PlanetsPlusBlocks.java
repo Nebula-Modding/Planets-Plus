@@ -164,6 +164,7 @@ public class PlanetsPlusBlocks {
             POLISHED_VOXGLOMERATE = register("polished_voxglomerate", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PURPLE))),
             POLISHED_GALIA_STONE = register("polished_galia_stone", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PURPLE))),
 
+            GALIA_IMPACT_PLANKS = register("galia_impact_planks", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_ORANGE))),
             //Ores
 
             GALIA_OSTRUM_ORE = register("galia_ostrum_ore", () -> new Block(stoneProperties().mapColor(MapColor.COLOR_PINK))),

@@ -1,4 +1,4 @@
-// 1.21.1	2026-06-09T18:11:40.7189287	Block States: planetsplus
+// 1.21.1	2026-06-22T21:44:32.7560247	Block States: planetsplus
 f59c36ee1f8638f618ea8492c872a29b936407b5 assets/planetsplus/blockstates/atmas_cobblestone.json
 a1fe78dcd7c656babe5c6298003a0341758beeaf assets/planetsplus/blockstates/atmas_stone.json
 40fe199bb29d0d9edbfcc67ca8b718865c28759d assets/planetsplus/blockstates/basalt_sand.json
@@ -43,6 +43,7 @@ be8375f64b5198240d2afcc3d8b3955d6ab5fccc assets/planetsplus/blockstates/galia_di
 066fa066ae6db87ab119f138e34d6eef93886b4a assets/planetsplus/blockstates/galia_emerald_ore.json
 4d4dea6567ff67aa7e806b10309f5ac2b51908a1 assets/planetsplus/blockstates/galia_impact_mushroom.json
 2fafb2146170b36ea97f6ca483ca76cb4d78588a assets/planetsplus/blockstates/galia_impact_mushroom_stem.json
+3639be141e66e971ad9a21083402d477210f5507 assets/planetsplus/blockstates/galia_impact_planks.json
 a682d6e244ae700d2f256676de024e9b3434d7ab assets/planetsplus/blockstates/galia_iron_ore.json
 fe795e6cf80f93ff793b4fc2f1c201899657da94 assets/planetsplus/blockstates/galia_ostrum_ore.json
 f3c33386db3ef781109356a8c5048d14390afff6 assets/planetsplus/blockstates/galia_sand.json
@@ -180,6 +181,7 @@ d00a2bcc87178de1e0c911f7d71baee6a484b39c assets/planetsplus/models/block/galia_d
 a62cf0c0e56ed139651ebce4da92203a7d72eb91 assets/planetsplus/models/block/galia_emerald_ore.json
 a4a1abdf25723046dfc4a8aab1fa16f2d60afdf0 assets/planetsplus/models/block/galia_impact_mushroom.json
 0d53375712550e6ce4fdf66b13e5c79ffcf4cb58 assets/planetsplus/models/block/galia_impact_mushroom_stem.json
+256eb3b1ba31665c5540b2633c453bec5611f95e assets/planetsplus/models/block/galia_impact_planks.json
 9712b67571b143a905019bb6e26b3dee7d166953 assets/planetsplus/models/block/galia_iron_ore.json
 85c6e64100295a2e7c08c2b42508ea136596a234 assets/planetsplus/models/block/galia_ostrum_ore.json
 99cd215191999421374c1795d7148f7a819a01a9 assets/planetsplus/models/block/galia_sand.json
@@ -318,6 +320,7 @@ cfdc0ae0b98804a3a0aa5eb1e063fd566d7d8c2b assets/planetsplus/models/item/galia_co
 5ab0d4c19a9bba09a54f9e8e1d2e446b03269cf5 assets/planetsplus/models/item/galia_emerald_ore.json
 5ff9f9c7f4e6ba3d6dc779825f7a8a6d2cfa9a8d assets/planetsplus/models/item/galia_impact_mushroom.json
 c7d38353688a54cc9edbb1252fe64f7d261ec3e6 assets/planetsplus/models/item/galia_impact_mushroom_stem.json
+02d96089de6c78d2e082d36c7bef2918a6b8e2ad assets/planetsplus/models/item/galia_impact_planks.json
 7167a0c53d6ccc67ec19dc8c6ffc47ee63b50c9c assets/planetsplus/models/item/galia_iron_ore.json
 aadba8c25b6fa2b88a481f7e3cfd91a292f37c49 assets/planetsplus/models/item/galia_ostrum_ore.json
 83a11bf7c947b35564bab279cc928a0dd8e89869 assets/planetsplus/models/item/galia_sand.json

@@ -7,5 +7,10 @@ import net.neoforged.neoforge.common.SimpleTier;
 public class PlanetsPlusTiers {
     public static final Tier
             // Hey Carrot, you'll most likely want to change these values to fit the material, they're all 1 as a placeholder
-            ROSINRITE = new SimpleTier(PlanetsPlusTags.PlanetsPlusBlockTags.NEEDS_ROSINRITE_TOOL, 1939, 10, 7, 13, () -> Ingredient.of(PlanetsPlusTags.PlanetsPlusItemTags.INGOTS_ROSINRITE));
+            ROSINRITE = new SimpleTier(PlanetsPlusTags.PlanetsPlusBlockTags.NEEDS_ROSINRITE_TOOL,
+            839,
+            10,
+            6.5f,
+            13,
+            () -> Ingredient.of(PlanetsPlusTags.PlanetsPlusItemTags.INGOTS_ROSINRITE));
 }
